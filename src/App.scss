@@ -24,6 +24,7 @@ body {
 	&__menu {
 		max-width: 100%;
 		padding: 1rem;
+		height: 100px;
 
 		&__select
 		{
@@ -44,7 +45,7 @@ body {
 	}
 
 	&__container {
-		max-height: calc(500px - 3rem);
+		max-height: calc(100vh - 4.5rem);
 		overflow-y: auto;
 
 		&__list {

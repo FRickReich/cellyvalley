@@ -2,7 +2,6 @@ import { useState } from 'react';
 import recipesData from './recipes.json';
 import './App.scss';
 
-
 const getUniqueIngredients = () => {
 	const allIngredients = recipesData.recipes.reduce(
 		(acc, recipe) => [...acc, ...recipe.ingredients],
@@ -36,6 +35,7 @@ const App = () => {
 			</header>
 
 			<div className='App__menu'>
+				<div className="App__menu__wrapper">
 				<input
 					className='App__menu__input'
 					type="text"
@@ -64,6 +64,8 @@ const App = () => {
 						</select>
 					))}
 				</div>
+				</div>
+				
 			</div>
 
 			<div className='App__container'>
