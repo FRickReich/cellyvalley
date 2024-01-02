@@ -1,0 +1,142 @@
+// styles.scss
+
+// Mobile-First Styling
+$primary-color: #8e44ad; // Lila
+$background-color: #ecf0f1;
+$text-color: #2c3e50;
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  &__header {
+    background-color: $primary-color;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  &__menu {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  &__container {
+    max-height: 500px;
+    overflow-y: auto;
+
+    ul {
+      list-style-type: none;
+      padding: 0rem 1rem 1rem;
+      margin: 0;
+
+      li {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+        margin-bottom: 1rem;
+
+        h3 {
+          color: $primary-color;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+// Recipe List Styling
+input,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+// Media Query for larger screens (Desktop)
+@media (min-width: 768px) {
+  .App__menu,
+  .App__container {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+// $primary-color: #3498db;
+// $background-color: #ecf0f1;
+// $text-color: #2c3e50;
+
+// *{
+// 	padding: 0;
+// 	margin: 0;
+// }
+// .App {
+
+//     &__header {
+// 		width: 100%;
+//     }
+
+//     &__menu {
+// 		width: 100%;
+
+// 		&__input
+// 		{
+
+// 		}
+
+// 		&__select
+// 		{
+
+// 		}
+//     }
+// }
+
+// /* #root {
+// max-width: 1280px;
+// margin: 0 auto;
+// padding: 2rem;
+// text-align: center;
+// }
+
+// .logo {
+// height: 6em;
+// padding: 1.5em;
+// will-change: filter;
+// transition: filter 300ms;
+// }
+// .logo:hover {
+// filter: drop-shadow(0 0 2em #646cffaa);
+// }
+// .logo.react:hover {
+// filter: drop-shadow(0 0 2em #61dafbaa);
+// }
+
+// @keyframes logo-spin {
+// from {
+//   transform: rotate(0deg);
+// }
+// to {
+//   transform: rotate(360deg);
+// }
+// }
+
+// @media (prefers-reduced-motion: no-preference) {
+// a:nth-of-type(2) .logo {
+//   animation: logo-spin infinite 20s linear;
+// }
+// }
+
+// .card {
+// padding: 2em;
+// }
+
+// .read-the-docs {
+// color: #888;
+// } */
