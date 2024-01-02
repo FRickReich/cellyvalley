@@ -55,7 +55,7 @@ const App = () => {
 								setIngredientFilters(newFilters);
 							}}
 						>
-							<option value="">Zutat auswählen</option>
+							<option value="">Zutat</option>
 							{getUniqueIngredients().map(ingredient => (
 								<option key={ingredient} value={ingredient}>
 									{ingredient}
