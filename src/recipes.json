@@ -2,23 +2,28 @@
   "recipes": [
     {
       "title": "Auberginenrollen",
-      "ingredients": ["Aubergine", "Ei", "Käse"]
+      "ingredients": ["Aubergine", "Ei", "Käse"],
+      "rating": 3
     },
     {
       "title": "Austern-Platte",
-      "ingredients": ["Auster", "Zitrone"]
+      "ingredients": ["Auster", "Zitrone"],
+      "rating": 2
     },
     {
       "title": "Bunuelos",
-      "ingredients": ["Ei", "Käse", "Milch", "Weizen"]
+      "ingredients": ["Ei", "Käse", "Milch", "Weizen"],
+      "rating": 4
     },
     {
       "title": "Chilischotenrollen",
-      "ingredients": ["Chilischote", "Ei", "Käse"]
+      "ingredients": ["Chilischote", "Ei", "Käse"],
+      "rating": 3
     },
     {
       "title": "Cracker",
-      "ingredients": ["Weizen"]
+      "ingredients": ["Weizen"],
+      "rating": 1
     },
     {
       "title": "Cremesuppe",
@@ -27,11 +32,13 @@
         "Milch",
         "Kartoffeln",
         "Gemüse"
-      ]
+      ],
+      "rating": 4
     },
     {
       "title": "Eingelegter Hering",
-      "ingredients": ["Hering", "Zitrone", "Zwiebel", "Gewürz"]
+      "ingredients": ["Hering", "Zitrone", "Zwiebel", "Gewürz"],
+      "rating": 4
     },
     {
       "title": "Eingelegter Hering nach Arendelle-Art",
@@ -41,19 +48,23 @@
         "Zwiebel",
         "Knoblauch",
         "Gewürz"
-      ]
+      ],
+      "rating": 5
     },
     {
       "title": "Eintopf",
-      "ingredients": ["Kartoffel", "Gewürz", "Gemüse"]
+      "ingredients": ["Kartoffel", "Gewürz", "Gemüse"],
+      "rating": 3
     },
     {
       "title": "Gazpacho",
-      "ingredients": ["Gurke", "Tomaten", "Zwiebeln", "Gewürz"]
+      "ingredients": ["Gurke", "Tomaten", "Zwiebeln", "Gewürz"],
+      "rating": 4
     },
     {
       "title": "Gebratene Champignons",
-      "ingredients": ["Pilz", "Butter"]
+      "ingredients": ["Pilz", "Butter"],
+      "rating": 2
     },
     {
       "title": "Gegrillte Gemüseplatte",
@@ -61,19 +72,23 @@
         "Gemüse",
         "Gemüse",
         "Gemüse"
-      ]
+      ],
+      "rating": 3
     },
     {
       "title": "Gegrilltes Gemüse",
-      "ingredients": ["Gemüse"]
+      "ingredients": ["Gemüse"],
+      "rating": 1
     },
     {
       "title": "Gemüsesuppe",
-      "ingredients": ["Gemüse", "Gemüse"]
+      "ingredients": ["Gemüse", "Gemüse"],
+      "rating": 2
     },
     {
       "title": "Gerösteter Spargel",
-      "ingredients": ["Spargel", "Raps"]
+      "ingredients": ["Spargel", "Raps"],
+      "rating": 2
     },
     {
       "title": "Große Meeresfrüchteplatte",
@@ -83,111 +98,138 @@
         "Meeresfrüchte",
         "Meeresfrüchte",
         "Zitrone"
-      ]
+      ],
+      "rating": 5
     },
     {
       "title": "Grüner Salat",
-      "ingredients": ["Gemüse", "Salat"]
+      "ingredients": ["Gemüse", "Salat"],
+      "rating": 2
     },
     {
       "title": "Hartgekochte Eier",
-      "ingredients": ["Ei"]
+      "ingredients": ["Ei"],
+      "rating": 1
     },
     {
       "title": "Kaffee",
-      "ingredients": ["Kaffeebohnen"]
+      "ingredients": ["Kaffeebohnen"],
+      "rating": 1
     },
     {
       "title": "Kartoffelrollen",
-      "ingredients": ["Kartoffel", "Ei", "Käse"]
+      "ingredients": ["Kartoffel", "Ei", "Käse"],
+      "rating": 3
     },
     {
       "title": "Kartoffelsuppe mit Lauch",
-      "ingredients": ["Lauch", "Kartoffel", "Milch", "Zwiebel", "Knoblauch"]
+      "ingredients": ["Lauch", "Kartoffel", "Milch", "Zwiebel", "Knoblauch"],
+      "rating": 5
     },
     {
       "title": "Käseplatte",
-      "ingredients": ["Käse"]
+      "ingredients": ["Käse"],
+      "rating": 1
     },
     {
       "title": "Kürbisrollen",
-      "ingredients": ["Kürbis", "Ei", "Käse"]
+      "ingredients": ["Kürbis", "Ei", "Käse"],
+      "rating": 3
     },
     {
       "title": "Kürbissuppe",
-      "ingredients": ["Kürbis", "Ingwer", "Milch", "Gemüse"]
+      "ingredients": ["Kürbis", "Ingwer", "Milch", "Gemüse"],
+      "rating": 4
     },
     {
       "title": "Latte",
-      "ingredients": ["Kaffeebohnen", "Milch"]
+      "ingredients": ["Kaffeebohnen", "Milch"],
+      "rating": 2
     },
     {
       "title": "Marinierter Hering",
-      "ingredients": ["Hering", "Zwiebel"]
+      "ingredients": ["Hering", "Zwiebel"],
+      "rating": 2
     },
     {
       "title": "Meeresfrüchteplatte",
-      "ingredients": ["Meeresfrüchte", "Meeresfrüchte"]
+      "ingredients": ["Meeresfrüchte", "Meeresfrüchte"],
+      "rating": 2
     },
     {
       "title": "Mokka",
-      "ingredients": ["Kaffeebohnen", "Milch", "Kakao"]
+      "ingredients": ["Kaffeebohnen", "Milch", "Kakao"],
+      "rating": 3
     },
     {
       "title": "Okrasuppe",
-      "ingredients": ["Okra"]
+      "ingredients": ["Okra"],
+      "rating": 1
     },
     {
       "title": "Paprikarollen",
-      "ingredients": ["Paprika", "Eier", "Käse"]
+      "ingredients": ["Paprika", "Eier", "Käse"],
+      "rating": 3
     },
     {
       "title": "Pfefferminztee",
-      "ingredients": ["Zitrone", "Minze"]
+      "ingredients": ["Zitrone", "Minze"],
+      "rating": 2
     },
     {
       "title": "Pommes",
-      "ingredients": ["Raps", "Kartoffeln"]
+      "ingredients": ["Raps", "Kartoffeln"],
+      "rating": 2
     },
     {
       "title": "Püree",
-      "ingredients": ["Kartoffel"]
+      "ingredients": ["Kartoffel"],
+      "rating": 1
     },
     {
       "title": "Rohkost",
-      "ingredients": ["Gemüse"]
+      "ingredients": ["Gemüse"],
+      "rating": 1
     },
     {
       "title": "Salat",
-      "ingredients": ["Salat"]
+      "ingredients": ["Salat"],
+      "rating": 1
     },
     {
       "title": "Soufflé",
-      "ingredients": ["Käse", "Ei", "Milch", "Butter"]
+      "ingredients": ["Käse", "Ei", "Milch", "Butter"],
+      "rating": 4
     },
     {
       "title": "Tomatensuppe",
-      "ingredients": ["Tomate"]
+      "ingredients": ["Tomate"],
+      "rating": 1
     },
     {
       "title": "Traum-Fizz",
-      "ingredients": ["Dreamlight-Frucht", "Slush-Eis", "Weizen", "Zuckerrohr"]
+      "ingredients": ["Dreamlight-Frucht", "Slush-Eis", "Weizen", "Zuckerrohr"],
+      "rating": 3
     },
     {
       "title": "Vorspeise aus Meeresfrüchten",
-      "ingredients": ["Meeresfrüchte"]
+      "ingredients": ["Meeresfrüchte"],
+      "rating": 1
     },
     {
       "title": "Zucchini-Bällchen",
-      "ingredients": ["Zucchini", "Ei", "Käse"]
+      "ingredients": ["Zucchini", "Ei", "Käse"],
+      "rating": 3
     },
     {
       "title": "Zwiebel-Bällchen",
-      "ingredients": ["Zwiebeln", "Eier", "Käse"]
+      "ingredients": ["Zwiebeln", "Eier", "Käse"],
+      "rating": 3
     },
     {
       "title": "Basilikum-Omelett",
-      "ingredients": ["Basilikum", "Ei", "Käse", "Milch"]
+      "ingredients": ["Basilikum", "Ei", "Käse", "Milch"],
+      "rating": 4
     },
     {
       "title": "Bouillabaisse",
@@ -197,87 +239,108 @@
         "Gemüse",
         "Garnelen",
         "Tomaten"
-      ]
+      ],
+      "rating": 5
     },
     {
       "title": "Bratfisch mit Pommes",
-      "ingredients": ["Fisch", "Weizen", "Raps", "Kartoffel"]
+      "ingredients": ["Fisch", "Weizen", "Raps", "Kartoffel"],
+      "rating": 4
     },
     {
       "title": "Champignon-Pizza",
-      "ingredients": ["Pilz", "Weizen", "Tomate", "Käse"]
+      "ingredients": ["Pilz", "Weizen", "Tomate", "Käse"],
+      "rating": 4
     },
     {
       "title": "Cremige Knoblauch-Jakobsmuscheln",
-      "ingredients": ["Jakobsmuscheln", "Zitrone", "Butter", "Knoblauch"]
+      "ingredients": ["Jakobsmuscheln", "Zitrone", "Butter", "Knoblauch"],
+      "rating": 4
     },
     {
       "title": "Deftiger Salat",
-      "ingredients": ["Gemüse", "Gemüse", "Salat"]
+      "ingredients": ["Gemüse", "Gemüse", "Salat"],
+      "rating": 3
     },
     {
       "title": "Einfach gebratener Flussbarsch",
-      "ingredients": ["Flussbarsch", "Weizen", "Butter"]
+      "ingredients": ["Flussbarsch", "Weizen", "Butter"],
+      "rating": 3
     },
     {
       "title": "Erdnussbutter-Sandwich",
-      "ingredients": ["Erdnuss", "Weizen"]
+      "ingredients": ["Erdnuss", "Weizen"],
+      "rating": 2
     },
     {
       "title": "Fisch in Salzkruste",
-      "ingredients": ["Fisch", "Zitrone"]
+      "ingredients": ["Fisch", "Zitrone"],
+      "rating": 2
     },
     {
       "title": "Fischauflauf",
-      "ingredients": ["Fisch", "Weizen", "Butter"]
+      "ingredients": ["Fisch", "Weizen", "Butter"],
+      "rating": 3
     },
     {
       "title": "Fischbrötchen",
-      "ingredients": ["Fisch", "Weizen"]
+      "ingredients": ["Fisch", "Weizen"],
+      "rating": 2
     },
     {
       "title": "Fischsalat",
-      "ingredients": ["Fisch", "Zitrone", "Salat"]
+      "ingredients": ["Fisch", "Zitrone", "Salat"],
+      "rating": 3
     },
     {
       "title": "Fischsteak",
-      "ingredients": ["Fisch", "Tomate", "Basilikum"]
+      "ingredients": ["Fisch", "Tomate", "Basilikum"],
+      "rating": 3
     },
     {
       "title": "Fischsuppe",
-      "ingredients": ["Fisch", "Gemüse", "Milch"]
+      "ingredients": ["Fisch", "Gemüse", "Milch"],
+      "rating": 3
     },
     {
       "title": "Fisch-Tacos",
-      "ingredients": ["Fisch", "Mais", "Chilischoten", "Käse"]
+      "ingredients": ["Fisch", "Mais", "Chilischoten", "Käse"],
+      "rating": 4
     },
     {
       "title": "Fugu-Sushi",
-      "ingredients": ["Kugelfisch", "Reis", "Algen"]
+      "ingredients": ["Kugelfisch", "Reis", "Algen"],
+      "rating": 3
     },
     {
       "title": "Gebackener Karpfen",
-      "ingredients": ["Karpfen", "Butter"]
+      "ingredients": ["Karpfen", "Butter"],
+      "rating": 2
     },
     {
       "title": "Gebratene Regenbogenforelle",
-      "ingredients": ["Regenbogenforelle", "Zwiebel", "Tomate"]
+      "ingredients": ["Regenbogenforelle", "Zwiebel", "Tomate"],
+      "rating": 3
     },
     {
       "title": "Gebratener Seeteufel",
-      "ingredients": ["Seeteufel", "Kartoffel", "Tomate", "Zucchini"]
+      "ingredients": ["Seeteufel", "Kartoffel", "Tomate", "Zucchini"],
+      "rating": 4
     },
     {
       "title": "Gedämpfter Fugu",
-      "ingredients": ["Kugelfisch/Fugu", "Ingwer", "Knoblauch"]
+      "ingredients": ["Kugelfisch/Fugu", "Ingwer", "Knoblauch"],
+      "rating": 3
     },
     {
       "title": "Gegrillter Fisch",
-      "ingredients": ["Fisch"]
+      "ingredients": ["Fisch"],
+      "rating": 1
     },
     {
       "title": "Gegrillter Fisch als Hauptspeise",
-      "ingredients": ["Fisch", "Gemüse"]
+      "ingredients": ["Fisch", "Gemüse"],
+      "rating": 2
     },
     {
       "title": "Geisterfischsteak",
@@ -287,7 +350,8 @@
         "Zitrone",
         "Oregano",
         "Fisch aus dem Hier und Dort"
-      ]
+      ],
+      "rating": 5
     },
     {
       "title": "Gemüseauflauf",
@@ -296,87 +360,108 @@
         "Gemüse",
         "Käse",
         "Kräuter"
-      ]
+      ],
+      "rating": 4
     },
     {
       "title": "Gemüseeintopf",
-      "ingredients": ["Zwiebel", "Karotte", "Kartoffeln"]
+      "ingredients": ["Zwiebel", "Karotte", "Kartoffeln"],
+      "rating": 3
     },
     {
       "title": "Gemüsepastete",
-      "ingredients": ["Gemüse", "Weizen", "Butter"]
+      "ingredients": ["Gemüse", "Weizen", "Butter"],
+      "rating": 3
     },
     {
       "title": "Gemüsespieße",
-      "ingredients": ["Champignon", "Zucchini", "Zwiebel", "Paprika"]
+      "ingredients": ["Champignon", "Zucchini", "Zwiebel", "Paprika"],
+      "rating": 4
     },
     {
       "title": "Geräucherte Erdnüsse und Seeteufel",
-      "ingredients": ["Erdnuss", "Seeteufel"]
+      "ingredients": ["Erdnuss", "Seeteufel"],
+      "rating": 2
     },
     {
       "title": "Griechische Pizza",
-      "ingredients": ["Kräuter", "Weizen", "Käse", "Tomate", "Zwiebel"]
+      "ingredients": ["Kräuter", "Weizen", "Käse", "Tomate", "Zwiebel"],
+      "rating": 5
     },
     {
       "title": "Gumbo",
-      "ingredients": ["Okra", "Tomate", "Zwiebel", "Chilischote", "Garnele"]
+      "ingredients": ["Okra", "Tomate", "Zwiebel", "Chilischote", "Garnele"],
+      "rating": 5
     },
     {
       "title": "Haferbrei",
-      "ingredients": ["Weizen", "Milch"]
+      "ingredients": ["Weizen", "Milch"],
+      "rating": 2
     },
     {
       "title": "Haferbrei mit Früchten",
-      "ingredients": ["Weizen", "Milch", "Obst"]
+      "ingredients": ["Weizen", "Milch", "Obst"],
+      "rating": 3
     },
     {
       "title": "Hors d'aeuvre",
-      "ingredients": ["Gewürz"]
+      "ingredients": ["Gewürz"],
+      "rating": 1
     },
     {
       "title": "Hummerbrötchen",
-      "ingredients": ["Hummer", "Weizen", "Zitrone", "Butter", "Knoblauch"]
+      "ingredients": ["Hummer", "Weizen", "Zitrone", "Butter", "Knoblauch"],
+      "rating": 5
     },
     {
       "title": "In Alufolie gegarter Zander",
-      "ingredients": ["Zander", "Basilikum", "Gemüse", "Oregano"]
+      "ingredients": ["Zander", "Basilikum", "Gemüse", "Oregano"],
+      "rating": 4
     },
     {
       "title": "In der Pfanne gebratener Barsch mit Gemüse",
-      "ingredients": ["Barsch", "Gemüse", "Gemüse"]
+      "ingredients": ["Barsch", "Gemüse", "Gemüse"],
+      "rating": 3
     },
     {
       "title": "In der Pfanne gebratener Buntbarsch mit Gemüse",
-      "ingredients": ["Buntbarsch", "Gemüse", "Gemüse"]
+      "ingredients": ["Buntbarsch", "Gemüse", "Gemüse"],
+      "rating": 3
     },
     {
       "title": "Kappa Maki",
-      "ingredients": ["Seetang", "Gurke", "Reis"]
+      "ingredients": ["Seetang", "Gurke", "Reis"],
+      "rating": 3
     },
     {
       "title": "Karpfensalat",
-      "ingredients": ["Karpfen", "Salat", "Zitrone"]
+      "ingredients": ["Karpfen", "Salat", "Zitrone"],
+      "rating": 3
     },
     {
       "title": "Käsig-knusprig gebackener Kabeljau",
-      "ingredients": ["Kabeljau", "Weizen", "Käse"]
+      "ingredients": ["Kabeljau", "Weizen", "Käse"],
+      "rating": 3
     },
     {
       "title": "Knusprig gebackener Kabeljau",
-      "ingredients": ["Kabeljau", "Weizen"]
+      "ingredients": ["Kabeljau", "Weizen"],
+      "rating": 2
     },
     {
       "title": "Köstliches Gemüse",
-      "ingredients": ["Gemüse", "Gewürz"]
+      "ingredients": ["Gemüse", "Gewürz"],
+      "rating": 2
     },
     {
       "title": "Kreolischer Fisch",
-      "ingredients": ["Fisch", "Gemüse", "Knoblauch", "Reis", "Tomate"]
+      "ingredients": ["Fisch", "Gemüse", "Knoblauch", "Reis", "Tomate"],
+      "rating": 5
     },
     {
       "title": "Kronk's Spinatrollen",
-      "ingredients": ["Spinat", "Käse", "Raps"]
+      "ingredients": ["Spinat", "Käse", "Raps"],
+      "rating": 3
     },
     {
       "title": "Lanzettfisch-Paella",
@@ -386,15 +471,18 @@
         "Meeresfrüchte",
         "Tomate",
         "Reis"
-      ]
+      ],
+      "rating": 5
     },
     {
       "title": "Lauchsuppe",
-      "ingredients": ["Lauch"]
+      "ingredients": ["Lauch"],
+      "rating": 1
     },
     {
       "title": "Leckerer Salat",
-      "ingredients": ["Salat", "Gurke", "Gemüse", "Gewürz"]
+      "ingredients": ["Salat", "Gurke", "Gemüse", "Gewürz"],
+      "rating": 4
     },
     {
       "title": "Löwinnen-Festmahl",
@@ -403,121 +491,149 @@
         "Champignon",
         "Oregano",
         "Fisch aus dem Hier und Dort"
-      ]
+      ],
+      "rating": 4
     },
     {
       "title": "Maguro Sushi",
-      "ingredients": ["Thunfisch", "Reis", "Seetang", "Ingwer"]
+      "ingredients": ["Thunfisch", "Reis", "Seetang", "Ingwer"],
+      "rating": 4
     },
     {
       "title": "Maki",
-      "ingredients": ["Fisch", "Algen", "Reis"]
+      "ingredients": ["Fisch", "Algen", "Reis"],
+      "rating": 3
     },
     {
       "title": "Mediterraner Salat",
-      "ingredients": ["Gurken", "Tomaten", "Zwiebeln", "Salat", "Gewürz"]
+      "ingredients": ["Gurken", "Tomaten", "Zwiebeln", "Salat", "Gewürz"],
+      "rating": 5
     },
     {
       "title": "Meeresfrüchtepastete",
-      "ingredients": ["Meeresfrüchte", "Weizen", "Butter"]
+      "ingredients": ["Meeresfrüchte", "Weizen", "Butter"],
+      "rating": 3
     },
     {
       "title": "Meeresfrüchtesalat",
-      "ingredients": ["Meeresfrüchte", "Salat"]
+      "ingredients": ["Meeresfrüchte", "Salat"],
+      "rating": 2
     },
     {
       "title": "Meeresfrüchtesuppe",
-      "ingredients": ["Meeresfrüchte", "Gemüse", "Gemüse"]
+      "ingredients": ["Meeresfrüchte", "Gemüse", "Gemüse"],
+      "rating": 3
     },
     {
       "title": "Mit Apfelwein glasierter Lachs",
-      "ingredients": ["Lachs", "Apfel", "Zuckerrohr"]
+      "ingredients": ["Lachs", "Apfel", "Zuckerrohr"],
+      "rating": 3
     },
     {
       "title": "Muschelsuppe",
-      "ingredients": ["Meeresfrüchte", "Gemüse", "Milch", "Kartoffel"]
+      "ingredients": ["Meeresfrüchte", "Gemüse", "Milch", "Kartoffel"],
+      "rating": 4
     },
     {
       "title": "Mushus Congee",
-      "ingredients": ["Champignon", "Ei", "Ingwer", "Knoblauch", "Reis"]
+      "ingredients": ["Champignon", "Ei", "Ingwer", "Knoblauch", "Reis"],
+      "rating": 5
     },
     {
       "title": "Nudeln",
-      "ingredients": ["Weizen", "Tomate"]
+      "ingredients": ["Weizen", "Tomate"],
+      "rating": 2
     },
     {
       "title": "Nudeln mit Fisch",
-      "ingredients": ["Fisch", "Knoblauch", "Weizen", "Milch"]
+      "ingredients": ["Fisch", "Knoblauch", "Weizen", "Milch"],
+      "rating": 4
     },
     {
       "title": "Nudeln mit Gemüse",
-      "ingredients": ["Tomate", "Weizen", "Gemüse"]
+      "ingredients": ["Tomate", "Weizen", "Gemüse"],
+      "rating": 3
     },
     {
       "title": "Nudeln mit Meeresfrüchten",
-      "ingredients": ["Meeresfrüchte", "Weizen", "Milch"]
+      "ingredients": ["Meeresfrüchte", "Weizen", "Milch"],
+      "rating": 3
     },
     {
       "title": "Omelett",
-      "ingredients": ["Ei", "Milch", "Käse"]
+      "ingredients": ["Ei", "Milch", "Käse"],
+      "rating": 3
     },
     {
       "title": "Pikant gebackene Brasse",
-      "ingredients": ["Brasse", "Butter", "Chilischote"]
+      "ingredients": ["Brasse", "Butter", "Chilischote"],
+      "rating": 3
     },
     {
       "title": "Pizza",
-      "ingredients": ["Weizen", "Tomate", "Käse"]
+      "ingredients": ["Weizen", "Tomate", "Käse"],
+      "rating": 3
     },
     {
       "title": "Pizza Margherita",
-      "ingredients": ["Gewürz", "Weizen", "Tomate", "Käse"]
+      "ingredients": ["Gewürz", "Weizen", "Tomate", "Käse"],
+      "rating": 4
     },
     {
       "title": "Pochierter Basilikum-Butter-Stör",
-      "ingredients": ["Stör", "Basilikum", "Zitrone", "Butter"]
+      "ingredients": ["Stör", "Basilikum", "Zitrone", "Butter"],
+      "rating": 4
     },
     {
       "title": "Ranch-Salat",
-      "ingredients": ["Salat", "Paprika", "Mais", "Tomate", "Zwiebel"]
+      "ingredients": ["Salat", "Paprika", "Mais", "Tomate", "Zwiebel"],
+      "rating": 5
     },
     {
       "title": "Ratatouille",
-      "ingredients": ["Tomate", "Zwiebel", "Aubergine", "Zucchini", "Gewürz"]
+      "ingredients": ["Tomate", "Zwiebel", "Aubergine", "Zucchini", "Gewürz"],
+      "rating": 3
     },
     {
       "title": "Risotto mit Fisch",
-      "ingredients": ["Fisch", "Reis", "Butter"]
+      "ingredients": ["Fisch", "Reis", "Butter"],
+      "rating": 3
     },
 
     {
       "title": "Rührei",
-      "ingredients": ["Ei", "Käse"]
+      "ingredients": ["Ei", "Käse"],
+      "rating": 2
     },
 
     {
       "title": "Sake Maki",
-      "ingredients": ["Lachs", "Algen", "Reis"]
+      "ingredients": ["Lachs", "Algen", "Reis"],
+      "rating": 3
     },
 
     {
       "title": "Sake Sushi",
-      "ingredients": ["Lachs", "Reis"]
+      "ingredients": ["Lachs", "Reis"],
+      "rating": 2
     },
 
     {
       "title": "Seezunge Müllerin",
-      "ingredients": ["Seezunge", "Weizen", "Butter", "Zitrone"]
+      "ingredients": ["Seezunge", "Weizen", "Butter", "Zitrone"],
+      "rating": 4
     },
 
     {
       "title": "Spaghetti Arrabbiata",
-      "ingredients": ["Weizen", "Tomate", "Chilischote"]
+      "ingredients": ["Weizen", "Tomate", "Chilischote"],
+      "rating": 3
     },
 
     {
       "title": "Sushi",
-      "ingredients": ["Fisch", "Reis"]
+      "ingredients": ["Fisch", "Reis"],
+      "rating": 2
     },
 
     {
@@ -527,31 +643,37 @@
         "Meeresfrüchte",
         "Süßigkeit",
         "Dreamlight-Frucht"
-      ]
+      ],
+      "rating": 4
     },
 
     {
       "title": "Süß-saures Königsfisch-Steak",
-      "ingredients": ["Königsfisch", "Zitrone", "Zuckerrohr"]
+      "ingredients": ["Königsfisch", "Zitrone", "Zuckerrohr"],
+      "rating": 3
     },
     {
       "title": "Tamagoyaki",
-      "ingredients": ["Ei", "Zuckerrohr"]
+      "ingredients": ["Ei", "Zuckerrohr"],
+      "rating": 2
     },
 
     {
       "title": "Tekka Maki",
-      "ingredients": ["Thunfisch", "Soja", "Seetang", "Reis"]
+      "ingredients": ["Thunfisch", "Soja", "Seetang", "Reis"],
+      "rating": 4
     },
 
     {
       "title": "Teriyaki-Lachs",
-      "ingredients": ["Lachs", "Soja", "Reis", "Ingwer", "Zuckerrohr"]
+      "ingredients": ["Lachs", "Soja", "Reis", "Ingwer", "Zuckerrohr"],
+      "rating": 5
     },
 
     {
       "title": "Thunfisch-Burger",
-      "ingredients": ["Thunfisch", "Zitrone", "Zwiebel", "Weizen", "Gemüse"]
+      "ingredients": ["Thunfisch", "Zitrone", "Zwiebel", "Weizen", "Gemüse"],
+      "rating": 5
     },
 
     {
@@ -562,56 +684,67 @@
         "Weizen",
         "Käse",
         "Tomate"
-      ]
+      ],
+      "rating": 5
     },
 
     {
       "title": "Vegetarischer Taco",
-      "ingredients": ["Gemüse", "Mais", "Chilischote", "Käse"]
+      "ingredients": ["Gemüse", "Mais", "Chilischote", "Käse"],
+      "rating": 4
     },
 
     {
       "title": "Wundermarmelade",
-      "ingredients": ["Weizen", "Dreamlight-Frucht"]
+      "ingredients": ["Weizen", "Dreamlight-Frucht"],
+      "rating": 2
     },
 
     {
       "title": "Zitronen-Knoblauch-Schwertfisch",
-      "ingredients": ["Zitrone", "Knoblauch", "Schwertfisch"]
+      "ingredients": ["Zitrone", "Knoblauch", "Schwertfisch"],
+      "rating": 3
     },
 
     {
       "title": "Mein Held-Keks",
-      "ingredients": ["Süßigkeit", "Weizen", "Butter"]
+      "ingredients": ["Süßigkeit", "Weizen", "Butter"],
+      "rating": 3
     },
 
     {
       "title": "Apfelkuchen",
-      "ingredients": ["Apfel", "Weizen", "Butter"]
+      "ingredients": ["Apfel", "Weizen", "Butter"],
+      "rating": 3
     },
 
     {
       "title": "Apfelsorbet",
-      "ingredients": ["Apfel", "Zuckerrohr", "Slush-Eis"]
+      "ingredients": ["Apfel", "Zuckerrohr", "Slush-Eis"],
+      "rating": 3
     },
 
     {
       "title": "Auroras Kuchen",
-      "ingredients": ["Himbeere", "Weizen", "Zuckerrohr", "Ei", "Milch"]
+      "ingredients": ["Himbeere", "Weizen", "Zuckerrohr", "Ei", "Milch"],
+      "rating": 5
     },
 
     {
       "title": "Baisertorte",
-      "ingredients": ["Zitrone", "Butter", "Weizen", "Ei"]
+      "ingredients": ["Zitrone", "Butter", "Weizen", "Ei"],
+      "rating": 4
     },
 
     {
       "title": "Bananen-Eiscreme",
-      "ingredients": ["Banane", "Milch", "Zuckerrohr", "Slush-Eis"]
+      "ingredients": ["Banane", "Milch", "Zuckerrohr", "Slush-Eis"],
+      "rating": 4
     },
     {
       "title": "Bananenkuchen",
-      "ingredients": ["Banane", "Weizen", "Butter"]
+      "ingredients": ["Banane", "Weizen", "Butter"],
+      "rating": 3
     },
 
     {
@@ -622,65 +755,80 @@
         "Zuckerrohr",
         "Slush-Eis",
         "Süßigkeit"
-      ]
+      ],
+      "rating": 5
     },
     {
       "title": "Baumstammkuchen",
-      "ingredients": ["Weizen", "Kakao", "Vanille", "Kirsche"]
+      "ingredients": ["Weizen", "Kakao", "Vanille", "Kirsche"],
+      "rating": 4
     },
     {
       "title": "Beerensalat",
-      "ingredients": ["Himbeere", "Stachelbeere", "Heidelbeere"]
+      "ingredients": ["Himbeere", "Stachelbeere", "Heidelbeere"],
+      "rating": 3
     },
     {
       "title": "Biskuitgebäck",
-      "ingredients": ["Zuckerrohr", "Weizen", "Butter"]
+      "ingredients": ["Zuckerrohr", "Weizen", "Butter"],
+      "rating": 3
     },
     {
       "title": "Blaubeerkuchen",
-      "ingredients": ["Blaubeere", "Weizen", "Butter"]
+      "ingredients": ["Blaubeere", "Weizen", "Butter"],
+      "rating": 3
     },
     {
       "title": "Bubble Tea",
-      "ingredients": ["Milch", "Zuckerrohr"]
+      "ingredients": ["Milch", "Zuckerrohr"],
+      "rating": 2
     },
     {
       "title": "Bubble Tea mit Himbeere",
-      "ingredients": ["Milch", "Zuckerrohr", "Himbeere"]
+      "ingredients": ["Milch", "Zuckerrohr", "Himbeere"],
+      "rating": 3
     },
     {
       "title": "Bubble Tea mit Kokosnuss",
-      "ingredients": ["Milch", "Zuckerrohr", "Kokosnuss"]
+      "ingredients": ["Milch", "Zuckerrohr", "Kokosnuss"],
+      "rating": 3
     },
     {
       "title": "Bubble Tea mit Minze",
-      "ingredients": ["Milch", "Zuckerrohr", "Minze"]
+      "ingredients": ["Milch", "Zuckerrohr", "Minze"],
+      "rating": 3
     },
 
     {
       "title": "Bubble Tea mit Stachelbeere",
-      "ingredients": ["Milch", "Zuckerrohr", "Stachelbeere"]
+      "ingredients": ["Milch", "Zuckerrohr", "Stachelbeere"],
+      "rating": 3
     },
     {
       "title": "Crêpe",
-      "ingredients": ["Milch", "Vanille", "Weizen", "Ei"]
+      "ingredients": ["Milch", "Vanille", "Weizen", "Ei"],
+      "rating": 4
     },
     {
       "title": "Einfache Schneekegel",
-      "ingredients": ["Slush-Eis"]
+      "ingredients": ["Slush-Eis"],
+      "rating": 1
     },
     {
       "title": "Eiscreme",
-      "ingredients": ["Milch", "Slush-Eis", "Zuckerrohr"]
+      "ingredients": ["Milch", "Slush-Eis", "Zuckerrohr"],
+      "rating": 3
     },
     {
       "title": "Eistatze",
-      "ingredients": ["Obst", "Slush-Eis", "Zuckerrohr"]
+      "ingredients": ["Obst", "Slush-Eis", "Zuckerrohr"],
+      "rating": 3
     },
 
     {
       "title": "Erdnussbutter-Waffeln",
-      "ingredients": ["Erdnuss", "Ei", "Weizen", "Milch"]
+      "ingredients": ["Erdnuss", "Ei", "Weizen", "Milch"],
+      "rating": 4
     },
     {
       "title": "Früchtebrot",
@@ -689,11 +837,13 @@
         "Frucht",
         "Frucht",
         "Frucht"
-      ]
+      ],
+      "rating": 4
     },
     {
       "title": "Fruchtsorbet",
-      "ingredients": ["Obst", "Slush-Eis"]
+      "ingredients": ["Obst", "Slush-Eis"],
+      "rating": 2
     },
 
     {
@@ -703,11 +853,13 @@
         "Ei-frige Frucht",
         "Frühlingsg-ei-müse",
         "Basilikum"
-      ]
+      ],
+      "rating": 4
     },
     {
       "title": "Frühlingsschokolade",
-      "ingredients": ["Frühlingsg-ei-müse", "Zuckerrohr", "Kakaobohne"]
+      "ingredients": ["Frühlingsg-ei-müse", "Zuckerrohr", "Kakaobohne"],
+      "rating": 3
     },
     {
       "title": "Gebäckcreme und Früchte",
@@ -717,100 +869,123 @@
         "Obst",
         "Zuckerrohr",
         "Milch"
-      ]
+      ],
+      "rating": 5
     },
     {
       "title": "Geburtstagskuchen",
-      "ingredients": ["Ei", "Butter", "Zuckerrohr", "Weizen", "Kakaobohne"]
+      "ingredients": ["Ei", "Butter", "Zuckerrohr", "Weizen", "Kakaobohne"],
+      "rating": 5
     },
     {
       "title": "Graues Zeug",
-      "ingredients": ["Zuckerrohr", "Kakaobohne", "Milchprodukt"]
+      "ingredients": ["Zuckerrohr", "Kakaobohne", "Milchprodukt"],
+      "rating": 3
     },
     {
       "title": "Heißer Kakao",
-      "ingredients": ["Zuckerrohr", "Milch", "Kakao"]
+      "ingredients": ["Zuckerrohr", "Milch", "Kakao"],
+      "rating": 3
     },
     {
       "title": "Hochzeitstorte",
-      "ingredients": ["Vanille", "Zuckerrohr", "Butter", "Weizen", "Ei"]
+      "ingredients": ["Vanille", "Zuckerrohr", "Butter", "Weizen", "Ei"],
+      "rating": 5
     },
     {
       "title": "Karamell-Äpfel",
-      "ingredients": ["Apfel", "Zuckerrohr"]
+      "ingredients": ["Apfel", "Zuckerrohr"],
+      "rating": 2
     },
 
     {
       "title": "Karottenkuchen",
-      "ingredients": ["Karotte", "Zuckerrohr", "Weizen", "Ei"]
+      "ingredients": ["Karotte", "Zuckerrohr", "Weizen", "Ei"],
+      "rating": 4
     },
 
     {
       "title": "Käsekuchen",
-      "ingredients": ["Käse", "Weizen", "Zuckerrohr", "Obst"]
+      "ingredients": ["Käse", "Weizen", "Zuckerrohr", "Obst"],
+      "rating": 4
     },
 
     {
       "title": "Kirschkuchen",
-      "ingredients": ["Kirsche", "Weizen", "Butter"]
+      "ingredients": ["Kirsche", "Weizen", "Butter"],
+      "rating": 3
     },
 
     {
       "title": "Kokoskuchen",
-      "ingredients": ["Kokosnuss", "Zuckerrohr", "Weizen", "Ei"]
+      "ingredients": ["Kokosnuss", "Zuckerrohr", "Weizen", "Ei"],
+      "rating": 4
     },
     {
       "title": "Kokusnuss-Eiscreme",
-      "ingredients": ["Kokosnuss", "Milch", "Zuckerrohr", "Slush-Eis"]
+      "ingredients": ["Kokosnuss", "Milch", "Zuckerrohr", "Slush-Eis"],
+      "rating": 4
     },
     {
       "title": "Konfitüre-Waffeln",
-      "ingredients": ["Obst", "Weizen", "Eier", "Milch"]
+      "ingredients": ["Obst", "Weizen", "Eier", "Milch"],
+      "rating": 4
     },
     {
       "title": "Krapfen",
-      "ingredients": ["Raps", "Weizen", "Ei", "Zuckerrohr"]
+      "ingredients": ["Raps", "Weizen", "Ei", "Zuckerrohr"],
+      "rating": 4
     },
     {
       "title": "Lebkuchenhaus",
-      "ingredients": ["Weizen", "Ingwer", "Zuckerrohr", "Vanille", "Eier"]
+      "ingredients": ["Weizen", "Ingwer", "Zuckerrohr", "Vanille", "Eier"],
+      "rating": 5
     },
 
     {
       "title": "Minnies Lebkuchenkekse",
-      "ingredients": ["Weizen", "Ingwer"]
+      "ingredients": ["Weizen", "Ingwer"],
+      "rating": 2
     },
     {
       "title": "Minzbonbon",
-      "ingredients": ["Minze", "Zuckerrohr"]
+      "ingredients": ["Minze", "Zuckerrohr"],
+      "rating": 2
     },
     {
       "title": "Minzschokolade",
-      "ingredients": ["Minze", "Kakaobohne", "Zuckerrohr", "Butter"]
+      "ingredients": ["Minze", "Kakaobohne", "Zuckerrohr", "Butter"],
+      "rating": 4
     },
     {
       "title": "Minz-Sorbet",
-      "ingredients": ["Minze", "Slush-Eis"]
+      "ingredients": ["Minze", "Slush-Eis"],
+      "rating": 2
     },
     {
       "title": "Obstsalat",
-      "ingredients": ["Obst"]
+      "ingredients": ["Obst"],
+      "rating": 1
     },
     {
       "title": "Root Beer",
-      "ingredients": ["Ingwer", "Vanille", "Zuckerrohr"]
+      "ingredients": ["Ingwer", "Vanille", "Zuckerrohr"],
+      "rating": 3
     },
     {
       "title": "Roter Obstkuchen",
-      "ingredients": ["Obst", "Weizen", "Butter"]
+      "ingredients": ["Obst", "Weizen", "Butter"],
+      "rating": 3
     },
     {
       "title": "Rotes Fruchtsorbet",
-      "ingredients": ["Himbeere", "Stachelbeere", "Slush-Eis", "Zuckerrohr"]
+      "ingredients": ["Himbeere", "Stachelbeere", "Slush-Eis", "Zuckerrohr"],
+      "rating": 4
     },
     {
       "title": "Saure Schneekugel",
-      "ingredients": ["Slush-Eis", "Zitrone", "Zuckerrohr"]
+      "ingredients": ["Slush-Eis", "Zitrone", "Zuckerrohr"],
+      "rating": 3
     },
     {
       "title": "Schale mit Ostereiern",
@@ -820,64 +995,79 @@
         "Frühlingsg-ei-müse",
         "Kakaobohne",
         "Zuckerrohr"
-      ]
+      ],
+      "rating": 5
     },
     {
       "title": "Schneewittchens Stachelbeerkuchen",
-      "ingredients": ["Stachelbeere", "Weizen", "Butter"]
+      "ingredients": ["Stachelbeere", "Weizen", "Butter"],
+      "rating": 3
     },
     {
       "title": "Schokokekse",
-      "ingredients": ["Weizen", "Zuckerrohr", "Butter", "Kakaobohne"]
+      "ingredients": ["Weizen", "Zuckerrohr", "Butter", "Kakaobohne"],
+      "rating": 4
     },
     {
       "title": "Schokoladen-Eiscreme",
-      "ingredients": ["Milch", "Slush-Eis", "Zuckerrohr", "Kakaobohne"]
+      "ingredients": ["Milch", "Slush-Eis", "Zuckerrohr", "Kakaobohne"],
+      "rating": 4
     },
     {
       "title": "Schokoladenwaffeln",
-      "ingredients": ["Kakaobohne", "Milch", "Weizen", "Ei"]
+      "ingredients": ["Kakaobohne", "Milch", "Weizen", "Ei"],
+      "rating": 4
     },
     {
       "title": "Shake",
-      "ingredients": ["Milchprodukt"]
+      "ingredients": ["Milchprodukt"],
+      "rating": 1
     },
     {
       "title": "Süßes Sorbet-Getränk",
-      "ingredients": ["Süßigkeit", "Slush-Eis"]
+      "ingredients": ["Süßigkeit", "Slush-Eis"],
+      "rating": 2
     },
     {
       "title": "Süßigkeiten",
-      "ingredients": ["Süßigkeit"]
+      "ingredients": ["Süßigkeit"],
+      "rating": 1
     },
     {
       "title": "Traumeis",
-      "ingredients": ["Milch", "Slush-Eis", "Dreamlight-Frucht"]
+      "ingredients": ["Milch", "Slush-Eis", "Dreamlight-Frucht"],
+      "rating": 3
     },
 
     {
       "title": "Tropische Limo",
-      "ingredients": ["Frucht", "Kokosnuss", "Zuckerrohr", "Slush-Eis"]
+      "ingredients": ["Frucht", "Kokosnuss", "Zuckerrohr", "Slush-Eis"],
+      "rating": 4
     },
     {
       "title": "Vanilleeis",
-      "ingredients": ["Vanille", "Milch", "Zuckerrohr", "Slush-Eis"]
+      "ingredients": ["Vanille", "Milch", "Zuckerrohr", "Slush-Eis"],
+      "rating": 4
     },
     {
       "title": "Waffeln",
-      "ingredients": ["Süßigkeit", "Ei", "Weizen", "Milch"]
+      "ingredients": ["Süßigkeit", "Ei", "Weizen", "Milch"],
+      "rating": 4
     },
     {
       "title": "Wunderland-Plätzchen",
-      "ingredients": ["Vanille", "Zuckerrohr", "Butter", "Weizen"]
+      "ingredients": ["Vanille", "Zuckerrohr", "Butter", "Weizen"],
+      "rating": 4
     },
     {
       "title": "Wunderlicher Kuchen",
-      "ingredients": ["Weizen", "Butter", "Dreamlight-Frucht"]
+      "ingredients": ["Weizen", "Butter", "Dreamlight-Frucht"],
+      "rating": 3
     },
     {
       "title": "Zitronensorbet",
-      "ingredients": ["Zitrone", "Slush-Eis"]
+      "ingredients": ["Zitrone", "Slush-Eis"],
+      "rating": 2
     }
   ]
 }

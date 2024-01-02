@@ -17,16 +17,16 @@ const App = () => {
 	const [ingredientFilters, setIngredientFilters] = useState(Array(5).fill(''));
 
 	const filteredRecipes = recipesData.recipes
-  .filter(recipe => {
-    const matchTitle = recipe.title.toLowerCase().includes(searchTerm.toLowerCase());
+		.filter(recipe => {
+			const matchTitle = recipe.title.toLowerCase().includes(searchTerm.toLowerCase());
 
-    const matchIngredients = ingredientFilters.every((filter, index) =>
-      filter ? recipe.ingredients.includes(filter) : true
-    );
+			const matchIngredients = ingredientFilters.every((filter, index) =>
+				filter ? recipe.ingredients.includes(filter) : true
+			);
 
-    return matchTitle && matchIngredients;
-  })
-  .sort((a, b) => a.title.localeCompare(b.title));
+			return matchTitle && matchIngredients;
+		})
+		.sort((a, b) => a.title.localeCompare(b.title));
 
 
 	return (
@@ -67,11 +67,18 @@ const App = () => {
 			</div>
 
 			<div className='App__container'>
-				<ul>
+				<ul className='App__container__list'>
 					{filteredRecipes.map(recipe => (
-						<li key={recipe.title}>
-							<h3>{recipe.title}</h3>
-							<p>{recipe.ingredients.join(', ')}</p>
+						<li 
+							key={recipe.title}
+							className='App__container__list__item'
+						>
+							<h3 className='App__container__list__item__title'>{recipe.title}</h3>
+							<p className='App__container__list__item__ingredients'>{recipe.ingredients.join(', ')}</p>
+							{[...Array(recipe.rating)].map((star, i) => (
+								<span key={i} className="App__container__list__item__star">&#9733;</span>
+							)
+							)}
 						</li>
 					))}
 				</ul>
