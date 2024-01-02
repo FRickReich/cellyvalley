@@ -15,8 +15,7 @@ const App = () => {
 	useEffect(() => {
 		if(currentIngredient)
 		{
-			setSelectedIngredient(ingredientsData.ingredients.find(ing => ing.title === currentIngredient))
-			console.log(selectedIngredient);
+			setSelectedIngredient(ingredientsData.ingredients.find(ing => ing.title === currentIngredient));
 		}
 
 	}, [currentIngredient]);
@@ -111,8 +110,8 @@ const App = () => {
 								}}
 							>
 								<option value="">Zutat</option>
-								{getUniqueIngredients().map(ingredient => (
-									<option key={ingredient} value={ingredient}>
+								{getUniqueIngredients().map((ingredient, n) => (
+									<option key={n} value={ingredient}>
 										{ingredient}
 									</option>
 								))}
@@ -131,9 +130,9 @@ const App = () => {
 							className='App__container__list__item'
 						>
 							<h3 className='App__container__list__item__title'>{recipe.title}</h3>
-							<p className='App__container__list__item__ingredients'>{recipe.ingredients.map(ingredient => (
+							<p className='App__container__list__item__ingredients'>{recipe.ingredients.map((ingredient, r) => (
 								<span 
-									key={ingredient} 
+									key={r} 
 									style={{ color: determineIngredientColor(ingredient) }}
 									onClick={() => handleShowIngredientsWindow(ingredient)}
 								>
