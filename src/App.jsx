@@ -134,7 +134,7 @@ const App = () => {
 								<span 
 									key={r} 
 									style={{ color: determineIngredientColor(ingredient) }}
-									onClick={() => handleShowIngredientsWindow(ingredient)}
+									onClick={() => determineIngredientColor(ingredient) === "blue" ? handleShowIngredientsWindow(ingredient) : undefined}
 								>
 									{ingredient}
 								</span>
