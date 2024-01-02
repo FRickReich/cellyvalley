@@ -1,0 +1,136 @@
+{
+  "ingredients": [
+    {
+      "title": "Spargel",
+      "positions": ["Eisige Höhen"]
+    },
+    {
+      "title": "Paprika",
+      "positions": ["Wald der Tapferkeit"]
+    },
+    {
+      "title": "Karotte",
+      "positions": ["Friedliche Wiese"]
+    },
+    {
+      "title": "Chili-Pfeffer",
+      "positions": ["Sonnige Ebene"]
+    },
+    {
+      "title": "Gurke",
+      "positions": ["Eisige Höhen"]
+    },
+    {
+      "title": "Aubergine",
+      "positions": ["Eisige Höhen"]
+    },
+    {
+      "title": "Lauch",
+      "positions": ["Vergessenes Land"]
+    },
+    {
+      "title": "Kopfsalat",
+      "positions": ["Friedliche Wiese"]
+    },
+    {
+      "title": "Okra",
+      "positions": ["Lichtung des Vertrauens"]
+    },
+    {
+      "title": "Zwiebel",
+      "positions": ["Wald der Tapferkeit"]
+    },
+    {
+      "title": "Kartoffel",
+      "positions": ["Vergessenes Land"]
+    },
+    {
+      "title": "Kürbis",
+      "positions": ["Vergessenes Land"]
+    },
+    {
+      "title": "Spinat",
+      "positions": ["Lichtung des Vertrauens"]
+    },
+    {
+      "title": "Tomate",
+      "positions": ["Schillernder Strand"]
+    },
+    {
+      "title": "Zucchini",
+      "positions": ["Sonnige Ebene"]
+    },
+    {
+      "title": "Raps",
+      "positions": ["Wald der Tapferkeit"]
+    },
+    {
+      "title": "Mais",
+      "positions": ["Schillernder Strand"]
+    },
+    {
+      "title": "Reis",
+      "positions": ["Lichtung des Vertrauens"]
+    },
+    {
+      "title": "Soja",
+      "positions": ["Sonnige Ebene"]
+    },
+    {
+      "title": "Zuckerrohr",
+      "positions": ["Schillernder Strand"]
+    },
+    {
+      "title": "Weizen",
+      "positions": ["Friedliche Wiese"]
+    },
+    {
+      "title": "Apfel",
+      "positions": ["Vergessenes Land", "Plaza"]
+    },
+    {
+      "title": "Banane",
+      "positions": ["Friedliche Wiese", "Schillernder Strand"]
+    },
+    {
+      "title": "Blaubeere",
+      "positions": ["Wald der Tapferkeit", "Schillernder Strand"]
+    },
+    {
+      "title": "Kirsche",
+      "positions": ["Eisige Höhen", "Sonnige Ebene"]
+    },
+    {
+      "title": "Kakaobohne",
+      "positions": ["Sonnige Ebene", "Lichtung des Vertrauens"]
+    },
+    {
+      "title": "Kokosnuss",
+      "positions": ["Schillernder Strand"]
+    },
+    {
+      "title": "Stachelbeere",
+      "positions": ["Eisige Höhen", "Vergessenes Land"]
+    },
+    {
+      "title": "Zitrone",
+      "positions": ["Wald der Tapferkeit", "Lichtung des Vertrauens"]
+    },
+    {
+      "title": "Himbeere",
+      "positions": ["Plaza", "Friedliche Wiese"]
+    },
+    {
+      "title": "Muschel",
+      "positions": ["Schillernder Strand"]
+    },
+    {
+      "title": "Auster",
+      "positions": ["Schillernder Strand"]
+    },
+    {
+      "title": "Jakobsmuschel",
+      "positions": ["Schillernder Strand"]
+    }
+  ]
+}
