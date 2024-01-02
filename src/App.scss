@@ -27,7 +27,7 @@ body {
   }
 
   &__container {
-    max-height: 500px;
+    max-height: calc(500px - 3rem);
     overflow-y: auto;
 
     ul {
@@ -58,6 +58,9 @@ select {
   padding: 0.5rem;
   margin-bottom: 1rem;
   box-sizing: border-box;
+  border-radius: 0.5rem;
+  border: 1px solid $primary-color;
+  height: 2.5rem;
 }
 
 // Media Query for larger screens (Desktop)
