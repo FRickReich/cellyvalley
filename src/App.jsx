@@ -128,8 +128,8 @@ const App = () => {
 										}
 								</ul>
 								<p>Typ: {determineFoodTypeIcon(selectedIngredient.type)} {selectedIngredient.type}</p>
-								<p>Energie: {selectedIngredient.power} <FontAwesomeIcon icon={faCloud}/></p>
-								<p>Verkauf: {selectedIngredient.revenue} <FontAwesomeIcon icon={faCoins}/></p>
+								<p>Energie vom Mampfen: {selectedIngredient.power} <FontAwesomeIcon icon={faCloud}/></p>
+								<p>Goofie gibt dir hierfür: {selectedIngredient.revenue} <FontAwesomeIcon icon={faCoins}/></p>
 							</div>
 							<button className="App__window__button" onClick={() => handleHideIngredientsWindow()}>Danke</button>
 							<div className="App__window__character">
