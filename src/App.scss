@@ -18,14 +18,23 @@ body {
 	&__window
 	{
 		background: $primary-color;
-		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
 
 		&__character
 		{
 			position: absolute;
 			z-index: 500;
-			right: 0;
-			bottom: 0;
+			right: 1rem;
+			bottom: 4.5rem;
+
+			img
+			{
+				height: 15rem;
+			}
 		}
 
 		&__wrapper
@@ -72,6 +81,25 @@ body {
 		color: #fff;
 		text-align: center;
 		padding: 1rem;
+
+		&__top
+		{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			gap: 0.5rem;
+
+			&__item
+			{
+				color: lightgray;
+
+				&--active
+				{
+					color: white;
+				}
+			}
+		}
 	}
 
 	&__menu {
@@ -121,9 +149,10 @@ body {
 
 				&__ingredients
 				{
-					span
+					div
 					{
 						cursor: pointer;
+						margin-bottom: 0.25rem;
 					}
 				}
 

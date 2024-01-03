@@ -237,7 +237,7 @@
         "Meeresfrüchte",
         "Meeresfrüchte",
         "Gemüse",
-        "Garnelen",
+        "Garnele",
         "Tomate"
       ],
       "rating": 5
@@ -359,7 +359,7 @@
         "Gemüse",
         "Gemüse",
         "Käse",
-        "Kräuter"
+        "Gewürz"
       ],
       "rating": 4
     },
@@ -385,7 +385,7 @@
     },
     {
       "title": "Griechische Pizza",
-      "ingredients": ["Kräuter", "Weizen", "Käse", "Tomate", "Zwiebel"],
+      "ingredients": ["Gewürz", "Weizen", "Käse", "Tomate", "Zwiebel"],
       "rating": 5
     },
     {
@@ -400,7 +400,7 @@
     },
     {
       "title": "Haferbrei mit Früchten",
-      "ingredients": ["Weizen", "Milch", "Obst"],
+      "ingredients": ["Weizen", "Milch", "Frucht"],
       "rating": 3
     },
     {
@@ -467,7 +467,7 @@
       "title": "Lanzenfisch-Paella",
       "ingredients": [
         "Lanzenfisch",
-        "Garnelen",
+        "Garnele",
         "Meeresfrüchte",
         "Tomate",
         "Reis"
@@ -821,7 +821,7 @@
     },
     {
       "title": "Eistatze",
-      "ingredients": ["Obst", "Slush-Eis", "Zuckerrohr"],
+      "ingredients": ["Frucht", "Slush-Eis", "Zuckerrohr"],
       "rating": 3
     },
 
@@ -842,7 +842,7 @@
     },
     {
       "title": "Fruchtsorbet",
-      "ingredients": ["Obst", "Slush-Eis"],
+      "ingredients": ["Frucht", "Slush-Eis"],
       "rating": 2
     },
 
@@ -864,9 +864,9 @@
     {
       "title": "Gebäckcreme und Früchte",
       "ingredients": [
-        "Obst",
-        "Obst",
-        "Obst",
+        "Frucht",
+        "Frucht",
+        "Frucht",
         "Zuckerrohr",
         "Milch"
       ],
@@ -879,7 +879,7 @@
     },
     {
       "title": "Graues Zeug",
-      "ingredients": ["Zuckerrohr", "Kakaobohne", "Milchprodukt"],
+      "ingredients": ["Zuckerrohr", "Kakaobohne", "Anderes"],
       "rating": 3
     },
     {
@@ -906,7 +906,7 @@
 
     {
       "title": "Käsekuchen",
-      "ingredients": ["Käse", "Weizen", "Zuckerrohr", "Obst"],
+      "ingredients": ["Käse", "Weizen", "Zuckerrohr", "Frucht"],
       "rating": 4
     },
 
@@ -928,7 +928,7 @@
     },
     {
       "title": "Konfitüre-Waffeln",
-      "ingredients": ["Obst", "Weizen", "Ei", "Milch"],
+      "ingredients": ["Frucht", "Weizen", "Ei", "Milch"],
       "rating": 4
     },
     {
@@ -964,7 +964,7 @@
     },
     {
       "title": "Obstsalat",
-      "ingredients": ["Obst"],
+      "ingredients": ["Frucht"],
       "rating": 1
     },
     {
@@ -974,7 +974,7 @@
     },
     {
       "title": "Roter Obstkuchen",
-      "ingredients": ["Obst", "Weizen", "Butter"],
+      "ingredients": ["Frucht", "Weizen", "Butter"],
       "rating": 3
     },
     {
@@ -1020,7 +1020,7 @@
     },
     {
       "title": "Shake",
-      "ingredients": ["Milchprodukt"],
+      "ingredients": ["Anderes"],
       "rating": 1
     },
     {

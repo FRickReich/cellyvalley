@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBasketShopping, faCat, faCloud, faCoins, faPepperHot, faPizzaSlice } from '@fortawesome/free-solid-svg-icons';
+
+import { determineFoodTypeIcon, getRandomImage, getUniqueIngredients } from './utils';
 
 import recipesData from './recipes.json';
 import ingredientsData from './ingredients.json';
 
 import './App.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAppleAlt, faBan, faBowlFood, faCarrot, faCloud, faCoins, faIceCream, faMortarPestle, faShrimp, faStopCircle, faWheatAwn } from '@fortawesome/free-solid-svg-icons';
 
 const App = () => {
 	const [searchTerm, setSearchTerm] = useState('');
@@ -13,6 +15,17 @@ const App = () => {
 	const [showIngredientWindow, setShowIngredientWindow] = useState(false);
 	const [currentIngredient, setCurrentIngredient] = useState(undefined);
 	const [selectedIngredient, setSelectedIngredient] = useState({});
+	const [activeTab, setActiveTab] = useState(0);
+
+	const images = [
+		"https://static.wikia.nocookie.net/disney/images/2/27/Goofy_transparent.png",
+		"https://static.wikia.nocookie.net/disney/images/d/db/Donald_Duck_Iconic.png",
+		"https://static.wikia.nocookie.net/disney/images/b/bf/Mickey_Mouse_Disney_1.png",
+		"https://static.wikia.nocookie.net/disney/images/3/36/Minnie_Mouse_pose_.jpg",
+		"https://static.wikia.nocookie.net/disney/images/0/0a/Scrooge_McDuck.jpeg",
+		"https://static.wikia.nocookie.net/disney/images/6/67/Daisy_Duck_transparent.png",
+		"https://static.wikia.nocookie.net/disney/images/4/43/Huey_Dewey_Louie_artwork.jpg"
+	];
 
 	useEffect(() => {
 		if (currentIngredient) {
@@ -20,21 +33,6 @@ const App = () => {
 		}
 
 	}, [currentIngredient]);
-
-	const getRandomImage = () => 
-	{
-		const images = [
-			"https://static.wikia.nocookie.net/disney/images/2/27/Goofy_transparent.png",
-			"https://static.wikia.nocookie.net/disney/images/d/db/Donald_Duck_Iconic.png",
-			"https://static.wikia.nocookie.net/disney/images/b/bf/Mickey_Mouse_Disney_1.png",
-			"https://static.wikia.nocookie.net/disney/images/3/36/Minnie_Mouse_pose_.jpg",
-			"https://static.wikia.nocookie.net/disney/images/0/0a/Scrooge_McDuck.jpeg",
-			"https://static.wikia.nocookie.net/disney/images/6/67/Daisy_Duck_transparent.png",
-			"https://static.wikia.nocookie.net/disney/images/4/43/Huey_Dewey_Louie_artwork.jpg"
-		];
-
-		return images[(Math.random() * images.length) | 0]
-	}
 
 	const filteredRecipes = recipesData.recipes
 		.filter(recipe => {
@@ -48,54 +46,11 @@ const App = () => {
 		})
 		.sort((a, b) => a.title.localeCompare(b.title));
 
-	const getUniqueIngredients = () => {
-		const allIngredients = recipesData.recipes.reduce(
-			(acc, recipe) => [...acc, ...recipe.ingredients],
-			[]
-		);
-
-		return [...new Set(allIngredients)].sort();
-	};
-
 	const determineIngredientColor = (ingredientTitle) => {
 		const ingredient = ingredientsData.ingredients.find(item => item.title === ingredientTitle);
 
-		// If the ingredient is found, return 'blue'; otherwise, return 'gray'
-		return ingredient ? 'blue' : 'gray';
+		return ingredient ? 'black' : 'gray';
 	};
-
-	const determineFoodTypeIcon = (ingredientType) => {
-
-		let selectedIcon;
-
-		switch (ingredientType) {
-			case "Gemüse":
-				selectedIcon = faCarrot;
-				break;
-			case "Früchte":
-				selectedIcon = faAppleAlt;
-				break;
-			case "Getreide":
-				selectedIcon = faWheatAwn;
-				break;
-			case "Anderes":
-				selectedIcon = faBowlFood;
-				break;
-			case "Gewürze und Kräuter":
-				selectedIcon = faMortarPestle;
-				break;
-			case "Süßigkeiten":
-				selectedIcon = faIceCream;
-				break;
-			case "Meeresfrüchte":
-				selectedIcon = faShrimp;
-				break;
-			default:
-				selectedIcon = faBan;
-				break;
-		}
-		return <FontAwesomeIcon icon={selectedIcon} />;
-	}
 
 	const handleShowIngredientsWindow = (ingredient) => {
 		setCurrentIngredient(ingredient);
@@ -115,7 +70,7 @@ const App = () => {
 					<div className='App__window'>
 						<div className="App__window__wrapper">
 
-							<h3 className="App__window__title">{determineFoodTypeIcon(selectedIngredient.type)} {selectedIngredient.title}</h3>
+							<h3 className="App__window__title">{selectedIngredient.title}</h3>
 							<div className="App__window__text">
 								<p>
 									Hier findest du diese Zutat:
@@ -124,86 +79,153 @@ const App = () => {
 									{
 										selectedIngredient?.positions?.map((pos, i) => (
 											<li key={i}>{pos}</li>
-											))
-										}
+										))
+									}
 								</ul>
 								<p>Typ: {determineFoodTypeIcon(selectedIngredient.type)} {selectedIngredient.type}</p>
-								<p>Energie vom Mampfen: {selectedIngredient.power} <FontAwesomeIcon icon={faCloud}/></p>
-								<p>Goofie gibt dir hierfür: {selectedIngredient.revenue} <FontAwesomeIcon icon={faCoins}/></p>
+								<p>Energie vom Mampfen: {selectedIngredient.power} <FontAwesomeIcon icon={faCloud} /></p>
+								<p>Goofie gibt dir hierfür: {selectedIngredient.revenue} <FontAwesomeIcon icon={faCoins} /></p>
 							</div>
 							<button className="App__window__button" onClick={() => handleHideIngredientsWindow()}>Danke</button>
 							<div className="App__window__character">
-								<img src={getRandomImage()} alt="" />
+								<img src={getRandomImage(images)} alt="" />
 							</div>
 						</div>
 					</div>
 				)
 			}
 
-
 			<header className="App__header">
-				<h1>CellyValley Rezepte</h1>
-			</header>
-
-			<div className='App__menu'>
-				<div className="App__menu__wrapper">
-					<input
-						className='App__menu__input'
-						type="text"
-						placeholder="Suche"
-						value={searchTerm}
-						onChange={e => setSearchTerm(e.target.value)}
-					/>
-
-					<div className='App__menu__select'>
-						{ingredientFilters.map((filter, index) => (
-							<select
-								key={index}
-								value={filter}
-								onChange={e => {
-									const newFilters = [...ingredientFilters];
-									newFilters[index] = e.target.value;
-									setIngredientFilters(newFilters);
-								}}
-							>
-								<option value="">Zutat</option>
-								{getUniqueIngredients().map((ingredient, n) => (
-									<option key={n} value={ingredient}>
-										{ingredient}
-									</option>
-								))}
-							</select>
-						))}
+				<div className="App__header__top">
+					<div
+						className={`App__header__top__item ${activeTab === 0 ? 'App__header__top__item--active' : ''}`}
+						onClick={() => setActiveTab(0)}
+					>
+						<FontAwesomeIcon icon={faPizzaSlice} />
+					</div>
+					<div
+						className={`App__header__top__item ${activeTab === 1 ? 'App__header__top__item--active' : ''}`}
+						onClick={() => setActiveTab(1)}
+					>
+						<FontAwesomeIcon icon={faPepperHot} />
+					</div>
+					<div
+						className={`App__header__top__item ${activeTab === 2 ? 'App__header__top__item--active' : ''}`}
+						onClick={() => setActiveTab(2)}
+					>
+						<FontAwesomeIcon icon={faCat} />
+					</div>
+					<div
+						className={`App__header__top__item ${activeTab === 3 ? 'App__header__top__item--active' : ''}`}
+						onClick={() => setActiveTab(3)}
+					>
+						<FontAwesomeIcon icon={faBasketShopping} />
 					</div>
 				</div>
+				<h2>
+					CellyValley {
+						activeTab === 1 ? "Zutaten" :
+							activeTab === 2 ? "Tierchen" :
+								activeTab === 3 ? "Sammeln" : "Rezepte"
+					}
+				</h2>
+			</header>
 
-			</div>
+			{
+				activeTab === 0 &&
+				(
+					<section>
+				<div className='App__menu'>
+					<div className="App__menu__wrapper">
+						<input
+							className='App__menu__input'
+							type="text"
+							placeholder="Suche"
+							value={searchTerm}
+							onChange={e => setSearchTerm(e.target.value)}
+						/>
 
-			<div className='App__container'>
-				<ul className='App__container__list'>
-					{filteredRecipes.map(recipe => (
-						<li
-							key={recipe.title}
-							className='App__container__list__item'
-						>
-							<h3 className='App__container__list__item__title'>{recipe.title}</h3>
-							<p className='App__container__list__item__ingredients'>{recipe.ingredients.map((ingredient, r) => (
-								<span
-									key={r}
-									style={{ color: determineIngredientColor(ingredient) }}
-									onClick={() => determineIngredientColor(ingredient) === "blue" ? handleShowIngredientsWindow(ingredient) : undefined}
+						<div className='App__menu__select'>
+							{ingredientFilters.map((filter, index) => (
+								<select
+									key={index}
+									value={filter}
+									onChange={e => {
+										const newFilters = [...ingredientFilters];
+										newFilters[index] = e.target.value;
+										setIngredientFilters(newFilters);
+									}}
 								>
-									{ingredient}
-								</span>
-							)).reduce((prev, curr) => [prev, ', ', curr])}</p>
-							{[...Array(recipe.rating)].map((star, i) => (
-								<span key={i} className="App__container__list__item__star">&#9733;</span>
-							)
-							)}
-						</li>
-					))}
-				</ul>
-			</div>
+									<option value="">Zutat</option>
+									{getUniqueIngredients(recipesData).map((ingredient, n) => (
+										<option key={n} value={ingredient}>
+											{ingredient}
+										</option>
+									))}
+								</select>
+							))}
+						</div>
+					</div>
+
+				</div>
+
+				<div className='App__container'>
+					<ul className='App__container__list'>
+						{filteredRecipes.map(recipe => (
+							<li
+								key={recipe.title}
+								className='App__container__list__item'
+							>
+								<h3 className='App__container__list__item__title'>{recipe.title}</h3>
+								<p className='App__container__list__item__ingredients'>{recipe.ingredients.map((ingredient, r) => (
+									<div
+										key={r}
+										style={{ color: determineIngredientColor(ingredient) }}
+										onClick={() => determineIngredientColor(ingredient) === "black" ? handleShowIngredientsWindow(ingredient) : undefined}
+									>
+
+										{/* {determineFoodTypeIcon()} {ingredient} */}
+										{
+											ingredientsData.ingredients.find(ing => ing.title === ingredient) ? (
+												<div>{determineFoodTypeIcon(ingredientsData.ingredients.find(ing => ing.title === ingredient).type)} {ingredient}</div>)
+												:
+												(<div>{determineFoodTypeIcon(ingredient)} {ingredient}</div>)
+										}
+									</div>
+								)).reduce((prev, curr) => [prev, curr])}</p>
+								{[...Array(recipe.rating)].map((star, i) => (
+									<span key={i} className="App__container__list__item__star">&#9733;</span>
+								)
+								)}
+							</li>
+						))}
+					</ul>
+				</div>
+			</section>
+				)
+			}
+
+			{
+				activeTab === 1 &&
+				(
+					<section>ok</section>
+				)
+			}
+
+			{
+				activeTab === 2 &&
+				(
+					<section>ok</section>
+				)
+			}
+
+			{
+				activeTab === 3 &&
+				(
+					<section>ok</section>
+				)
+			}
+			
 		</div>
 	);
 };

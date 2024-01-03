@@ -3,21 +3,21 @@
     {
       "title": "Kakaobohne",
       "positions": ["Sonnige Ebene", "Lichtung des Vertrauens"],
-      "type": "Süßigkeiten",
+      "type": "Süßigkeit",
       "power": 450,
       "revenue": 38
     },
     {
       "title": "Kaffeebohne",
       "positions": ["Lichtung des Vertrauens"],
-      "type": "Süßigkeiten",
+      "type": "Süßigkeit",
       "power": 425,
       "revenue": 36
     },
     {
       "title": "Vanille",
       "positions": ["Sonnige Ebene"],
-      "type": "Süßigkeiten",
+      "type": "Süßigkeit",
       "power": 135,
       "revenue": 60
     },
@@ -25,42 +25,42 @@
     {
       "title": "Basilikum",
       "positions": ["Friedliche Wiese"],
-      "type": "Gewürze und Kräuter",
+      "type": "Gewürz",
       "power": 100,
       "revenue": 25
     },
     {
       "title": "Champignon",
       "positions": ["Lichtung des Vertrauens"],
-      "type": "Gewürze und Kräuter",
+      "type": "Gewürz",
       "power": 105,
       "revenue": 30
     },
     {
       "title": "Ingwer",
       "positions": ["Vergessenes Land"],
-      "type": "Gewürze und Kräuter",
+      "type": "Gewürz",
       "power": 175,
       "revenue": 100
     },
     {
       "title": "Knoblauch",
       "positions": ["Wald der Tapferkeit"],
-      "type": "Gewürze und Kräuter",
+      "type": "Gewürz",
       "power": 135,
       "revenue": 60
     },
     {
       "title": "Minze",
       "positions": ["Hauptplatz"],
-      "type": "Gewürze und Kräuter",
+      "type": "Gewürz",
       "power": 155,
       "revenue": 80
     },
     {
       "title": "Oregano",
       "positions": ["Wald der Tapferkeit"],
-      "type": "Gewürze und Kräuter",
+      "type": "Gewürz",
       "power": 95,
       "revenue": 20
     },
@@ -215,56 +215,56 @@
     {
       "title": "Apfel",
       "positions": ["Vergessenes Land", "Hauptplatz"],
-      "type": "Früchte",
+      "type": "Frucht",
       "power": 300,
       "revenue": 25
     },
     {
       "title": "Banane",
       "positions": ["Friedliche Wiese", "Schillernder Strand"],
-      "type": "Früchte",
+      "type": "Frucht",
       "power": 350,
       "revenue": 29
     },
     {
       "title": "Blaubeere",
       "positions": ["Wald der Tapferkeit", "Schillernder Strand"],
-      "type": "Früchte",
+      "type": "Frucht",
       "power": 350,
       "revenue": 29
     },
     {
       "title": "Kirsche",
       "positions": ["Eisige Höhen", "Sonnige Ebene"],
-      "type": "Früchte",
+      "type": "Frucht",
       "power": 500,
       "revenue": 42
     },
     {
       "title": "Kokosnuss",
       "positions": ["Schillernder Strand"],
-      "type": "Früchte",
+      "type": "Frucht",
       "power": 500,
       "revenue": 42
     },
     {
       "title": "Stachelbeere",
       "positions": ["Eisige Höhen", "Vergessenes Land"],
-      "type": "Früchte",
+      "type": "Frucht",
       "power": 600,
       "revenue": 50
     },
     {
       "title": "Zitrone",
       "positions": ["Wald der Tapferkeit", "Lichtung des Vertrauens"],
-      "type": "Früchte",
+      "type": "Frucht",
       "power": 400,
       "revenue": 33
     },
     {
       "title": "Himbeere",
       "positions": ["Hauptplatz", "Friedliche Wiese"],
-      "type": "Früchte",
+      "type": "Frucht",
       "power": 250,
       "revenue": 21
     },
@@ -334,35 +334,35 @@
     {
       "title": "Barsch",
       "positions": ["Friedliche Wiese", "Wald der Tapferkeit", "Sonnige Ebene", "Eisige Höhen"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 150,
       "revenue": 25
     },
     {
       "title": "Brasse",
       "positions": ["Friedliche Wiese"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 1300,
       "revenue": 600
     },
     {
       "title": "Buntbarsch",
       "positions": ["Eisige Höhen", "Sonnige Ebene"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 1150,
       "revenue": 600
     },
     {
       "title": "Flussbarsch",
       "positions": ["Sonnige Ebene", "Wald der Tapferkeit"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 400,
       "revenue": 80
     },
     {
       "title": "Fugu",
       "positions": ["Schillernder Strand"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 1700,
       "revenue": 900
     },
@@ -376,14 +376,14 @@
     {
       "title": "Hecht",
       "positions": ["Wald der Tapferkeit"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 1500,
       "revenue": 800
     },
     {
       "title": "Hering",
       "positions": ["Schillernder Strand", "Lichtung des Vertrauens"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 250,
       "revenue": 65
     },
@@ -397,21 +397,21 @@
     {
       "title": "Kabeljau",
       "positions": ["Schillernder Strand", "Lichtung des Vertrauens", "Vergessenes Land"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 150,
       "revenue": 35
     },
     {
       "title": "Karpfen",
       "positions": ["Wald der Tapferkeit", "Sonnige Ebene"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 800,
       "revenue": 400
     },
     {
       "title": "Königsfisch",
       "positions": ["Schillernder Strand"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 800,
       "revenue": 450
     },
@@ -425,56 +425,56 @@
     {
       "title": "Lachs",
       "positions": ["Schillernder Strand", "Eisige Höhen"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 500,
       "revenue": 150
     },
     {
       "title": "Lanzenfisch",
       "positions": ["Vergessenes Land"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 1300,
       "revenue": 650
     },
     {
       "title": "Regenbogenforelle",
       "positions": ["Friedliche Wiese", "Wald der Tapferkeit"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 300,
       "revenue": 50
     },
     {
       "title": "Schwertfisch",
       "positions": ["Schillernder Strand"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 1500,
       "revenue": 700
     },
     {
       "title": "Seetang",
       "positions": ["Friedliche Wiese", "Wald der Tapferkeit", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land", "Schillernder Strand"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 20,
       "revenue": 25
     },
     {
       "title": "Seeteufel",
       "positions": ["Vergessenes Land"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 2000,
       "revenue": 1500
     },
     {
       "title": "Seezunge",
       "positions": ["Vergessenes Land"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 500,
       "revenue": 200
     },
     {
       "title": "Thunfisch",
       "positions": ["Lichtung des Vertrauens", "Vergessenes Land"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 350,
       "revenue": 95
     },
@@ -488,21 +488,21 @@
     {
       "title": "Stör",
       "positions": ["Eisige Höhen"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 1800,
       "revenue": 1200
     },
     {
       "title": "Wels",
       "positions": ["Friedliche Wiese"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 1200,
       "revenue": 550
     },
     {
       "title": "Zander",
       "positions": ["Sonnige Ebene"],
-      "type": "Fische",
+      "type": "Fisch",
       "power": 1700,
       "revenue": 1100
     }

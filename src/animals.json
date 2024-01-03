@@ -1,0 +1,658 @@
+{
+	"animals": [
+		{
+			"name": "Graues Eichhörnchen",
+			"category": "Eichhörnchen",
+			"positions": [
+				"Hauptplatz"
+			],
+			"favorite": "Erdnuss",
+			"food": "Frucht",
+			"days": [
+				"DI",
+				"MI",
+				"SA",
+				"SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Klassisches Eichhörnchen",
+			"category": "Eichhörnchen",
+			"positions": [
+				"Hauptplatz"
+			],
+			"favorite": "Erdnuss",
+			"food": "Frucht",
+			"days": [
+				"DO",
+				"SA",
+				"SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Rotes Eichhörnchen",
+			"category": "Eichhörnchen",
+			"positions": [
+				"Hauptplatz"
+			],
+			"favorite": "Erdnuss",
+			"food": "Frucht",
+			"days": [
+				"MI",
+				"FR",
+				"SO"
+			],
+			"time": {
+				"from": 0,
+				"to": 12
+			}
+		},
+		{
+			"name": "Schwarzes Eichhörnchen",
+			"category": "Eichhörnchen",
+			"positions": [
+				"Hauptplatz"
+			],
+			"favorite": "Erdnuss",
+			"food": "Frucht",
+			"days": [
+				"DI",
+				"DO",
+				"FR",
+				"SO"
+			],
+			"time": {
+				"from": 0,
+				"to": 12
+			}
+		},
+		{
+			"name": "Weißes Eichhörnchen",
+			"category": "Eichhörnchen",
+			"positions": [
+				"Hauptplatz"
+			],
+			"favorite": "Erdnuss",
+			"food": "Frucht",
+			"days": [
+				"SO"
+			],
+			"time": {
+				"from": 0,
+				"to": 12
+			}
+		},
+		{
+			"name": "Blauer Fuchs",
+			"category": "Fuchs",
+			"positions": [
+				"Eisige Höhen"
+			],
+			"favorite": "Stör",
+			"food": "Lachs",
+			"days": [
+				"DI",
+				"DO",
+				"FR",
+				"SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Klassischer Fuchs",
+			"category": "Fuchs",
+			"positions": [
+				"Eisige Höhen"
+			],
+			"favorite": "Stör",
+			"food": "Lachs",
+			"days": [
+				"MI",
+				"FR",
+				"SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Roter Fuchs",
+			"category": "Fuchs",
+			"positions": [
+				"Eisige Höhen"
+			],
+			"favorite": "Stör",
+			"food": "Lachs",
+			"days": [
+				"SA",
+			],
+			"time": {
+				"from": 2,
+				"to": 8
+			}
+		},
+		{
+			"name": "Schwarzer Fuchs",
+			"category": "Fuchs",
+			"positions": [
+				"Eisige Höhen"
+			],
+			"favorite": "Stör",
+			"food": "Lachs",
+			"days": [
+				"DI",
+				"MI",
+				"SA",
+				"SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Weißer Fuchs",
+			"category": "Fuchs",
+			"positions": [
+				"Eisige Höhen"
+			],
+			"favorite": "Stör",
+			"food": "Lachs",
+			"days": [
+				"DI",
+				"SA",
+				"SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Braunes Kaninchen",
+			"category": "Kaninchen",
+			"positions": [
+				"Friedliche Wiese"
+			],
+			"favorite": "Karotte",
+			"food": "Gemüse",
+			"days": [
+				"DI",
+				"MI",
+				"SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Klassisches Kaninchen",
+			"category": "Kaninchen",
+			"positions": [
+				"Friedliche Wiese"
+			],
+			"favorite": "Karotte",
+			"food": "Gemüse",
+			"days": [
+				"DO",
+				"SA",
+				"SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Mehrfarbiges Kaninchen",
+			"category": "Kaninchen",
+			"positions": [
+				"Friedliche Wiese"
+			],
+			"favorite": "Karotte",
+			"food": "Gemüse",
+			"days": [
+				"DO"
+			],
+			"time": {
+				"from": 8,
+				"to": 14
+			}
+		},
+		{
+			"name": "Schwarzes Kaninchen",
+			"category": "Kaninchen",
+			"positions": [
+				"Friedliche Wiese"
+			],
+			"favorite": "Karotte",
+			"food": "Gemüse",
+			"days": [
+				"MO",
+				"MI",
+				"FR",
+				"SO"
+			],
+			"time": {
+				"from": 0,
+				"to": 12
+			}
+		},
+		{
+			"name": "Weißes Kaninchen",
+			"category": "Kaninchen",
+			"positions": [
+				"Friedliche Wiese"
+			],
+			"favorite": "Karotte",
+			"food": "Gemüse",
+			"days": [
+				"DI",
+				"DO",
+				"FR",
+				"SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Blaues Krokodil",
+			"category": "Krokodil",
+			"positions": [
+				"Lichtung des Vertrauens"
+			],
+			"favorite": "Hummer",
+			"food": "Hering",
+			"days": [
+				"MI", "FR", "SO"
+			],
+			"time": {
+				"from": 0,
+				"to": 12
+			}
+		},
+		{
+			"name": "Goldenes Krokodil",
+			"category": "Krokodil",
+			"positions": [
+				"Lichtung des Vertrauens"
+			],
+			"favorite": "Hummer",
+			"food": "Hering",
+			"days": [
+				"DI",
+				"DO",
+				"FR",
+				"SO"
+			],
+			"time": {
+				"from": 0,
+				"to": 12
+			}
+		},
+		{
+			"name": "Klassiches Krokodil",
+			"category": "Krokodil",
+			"positions": [
+				"Lichtung des Vertrauens"
+			],
+			"favorite": "Hummer",
+			"food": "Hering",
+			"days": [
+				"DO",
+				"SA",
+				"SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Rosafarbendes Krokodil",
+			"category": "Krokodil",
+			"positions": [
+				"Lichtung des Vertrauens"
+			],
+			"favorite": "Hummer",
+			"food": "Hering",
+			"days": [
+				"SA"
+			],
+			"time": {
+				"from": 2,
+				"to": 8
+			}
+		},
+		{
+			"name": "Rotes Krokodil",
+			"category": "Krokodil",
+			"positions": [
+				"Lichtung des Vertrauens"
+			],
+			"favorite": "Hummer",
+			"food": "Hering",
+			"days": [
+				"DI",
+				"MI",
+				"SA",
+				"SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Weißes Krokodil",
+			"category": "Krokodil",
+			"positions": [
+				"Lichtung des Vertrauens"
+			],
+			"favorite": "Hummer",
+			"food": "Hering",
+			"days": [
+				"SO"
+			],
+			"time": {
+				"from": 18,
+				"to": 0
+			}
+		},
+		{
+			"name": "Braune Meeresschildkröte",
+			"category": "Meeresschildkröte",
+			"positions": [
+				"Schillernder Strand"
+			],
+			"favorite": "Seetang",
+			"food": "Meeresfrüchte",
+			"days": [
+				"MI", "FR", "SO"
+			],
+			"time": {
+				"from": 0,
+				"to": 12
+			}
+		},
+		{
+			"name": "Klassische Meeresschildkröte",
+			"category": "Meeresschildkröten",
+			"positions": [
+				"Schillernder Strand"
+			],
+			"favorite": "Seetang",
+			"food": "Meeresfrüchte",
+			"days": [
+				"DO", "SA", "SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Lila Meeresschildkröte",
+			"category": "Meeresschildkröte",
+			"positions": [
+				"Schillernder Strand"
+			],
+			"favorite": "Seetang",
+			"food": "Meeresfrüchte",
+			"days": [
+				"DI", "DO", "FR", "SO"
+			],
+			"time": {
+				"from": 0,
+				"to": 12
+			}
+		},
+		{
+			"name": "Schwarze Meeresschildkröte",
+			"category": "Meeresschildkröte",
+			"positions": [
+				"Schillernder Strand"
+			],
+			"favorite": "Seetang",
+			"food": "Meeresfrüchte",
+			"days": [
+				"MO"
+			],
+			"time": {
+				"from": 10,
+				"to": 16
+			}
+		},
+		{
+			"name": "Weiße Meeresschildkröte",
+			"category": "Meeresschildkröte",
+			"positions": [
+				"Schillernder Strand"
+			],
+			"favorite": "Seetang",
+			"food": "Meeresfrüchte",
+			"days": [
+				"DI", "MI", "SA", "SO"
+			],
+			"time": {
+				"from": 0,
+				"to": 12
+			}
+		},
+		{
+			"name": "Goldener Nektarvogel",
+			"category": "Nektarvogel",
+			"positions": [
+				"Sonnige Ebene"
+			],
+			"favorite": "Orangefarbene Hauswurz",
+			"food": "Blume",
+			"days": [
+				"DI", "DO", "FR", "SO"
+			],
+			"time": {
+				"from": 0,
+				"to": 12
+			}
+		},
+		{
+			"name": "Orchideen Nektarvogel",
+			"category": "Nektarvogel",
+			"positions": [
+				"Sonnige Ebene"
+			],
+			"favorite": "Blume",
+			"food": "Blume",
+			"days": [
+				"FR"
+			],
+			"time": {
+				"from": 9,
+				"to": 15
+			}
+		},
+		{
+			"name": "Roter Nektarvogel",
+			"category": "Nektarvogel",
+			"positions": [
+				"Sonnige Ebene"
+			],
+			"favorite": "Rote Bromelie",
+			"food": "Blume",
+			"days": [
+				"D0", "SA", "SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Smaragdfarbener Nektarvogel",
+			"category": "Nektarvogel",
+			"positions": [
+				"Sonnige Ebene"
+			],
+			"favorite": "Grüne Passionslilie",
+			"food": "Blume",
+			"days": [
+				"DI", "MI", "SA", "SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Türkisfarbener Nektarvogel",
+			"category": "Nektarvogel",
+			"positions": [
+				"Sonnige Ebene"
+			],
+			"favorite": "Rosa Hauswurz",
+			"food": "Blume",
+			"days": [
+				"MI", "FR", "SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Blauer Rabel",
+			"category": "Rabe",
+			"positions": [
+				"Vergessenes Land"
+			],
+			"favorite": "5 Sterne Gericht"
+		},
+		{
+			"name": "Brauner Rabe",
+			"category": "Rabe",
+			"positions": [
+				"Vergessenes Land"
+			],
+			"favorite": "5 Sterne Gericht"
+		},
+		{
+			"name": "Klassischer Rabe",
+			"category": "Rabe",
+			"positions": [
+				"Vergessenes Land"
+			],
+			"favorite": "5 Sterne Gericht"
+		},
+		{
+			"name": "Roter Rabe",
+			"category": "Rabe",
+			"positions": [
+				"Vergessenes Land"
+			],
+			"favorite": "5 Sterne Gericht"
+		},
+		{
+			"name": "Weißer Rabe",
+			"category": "Rabe",
+			"positions": [
+				"Vergessenes Land"
+			],
+			"favorite": "5 Sterne Gericht"
+		},
+		{
+			"name": "Blauer Waschbär",
+			"category": "Waschbär",
+			"positions": [
+				"Wald der Tapferkeit"
+			],
+			"favorite": "Blaubeere",
+			"food": "Beeren",
+			"days": [
+				"MI"
+			],
+			"time": {
+				"from": 16,
+				"to": 22
+			}
+		},
+		{
+			"name": "Klassicher Waschbär",
+			"category": "Waschbär",
+			"positions": [
+				"Wald der Tapferkeit"
+			],
+			"favorite": "Blaubeere",
+			"food": "Beeren",
+			"days": [
+				"DO", "SA", "SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Roter Waschbär",
+			"category": "Waschbär",
+			"positions": [
+				"Wald der Tapferkeit"
+			],
+			"favorite": "Blaubeere",
+			"food": "Beeren",
+			"days": [
+				"MI", "FR", "SO"
+			],
+			"time": {
+				"from": 0,
+				"to": 12
+			}
+		},
+		{
+			"name": "Schwarzer Waschbär",
+			"category": "Waschbär",
+			"positions": [
+				"Wald der Tapferkeit"
+			],
+			"favorite": "Blaubeere",
+			"food": "Beeren",
+			"days": [
+				"MI", "MI", "SA", "SO"
+			],
+			"time": {
+				"from": 12,
+				"to": 0
+			}
+		},
+		{
+			"name": "Weißer Waschbär",
+			"category": "Waschbär",
+			"positions": [
+				"Wald der Tapferkeit"
+			],
+			"favorite": "Blaubeere",
+			"food": "Beeren",
+			"days": [
+				"DI", "DO", "FR", "SO"
+			],
+			"time": {
+				"from": 0,
+				"to": 12
+			}
+		}
+	]
+}
