@@ -5,7 +5,7 @@ import ingredientsData from './ingredients.json';
 
 import './App.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAppleAlt, faBan, faBowlFood, faCarrot, faIceCream, faMortarPestle, faShrimp, faStopCircle, faWheatAwn } from '@fortawesome/free-solid-svg-icons';
+import { faAppleAlt, faBan, faBowlFood, faCarrot, faCloud, faCoins, faIceCream, faMortarPestle, faShrimp, faStopCircle, faWheatAwn } from '@fortawesome/free-solid-svg-icons';
 
 const App = () => {
 	const [searchTerm, setSearchTerm] = useState('');
@@ -112,7 +112,9 @@ const App = () => {
 											))
 										}
 								</ul>
-								<p>Die Zutat ist vom Typ: {determineFoodTypeIcon(selectedIngredient.type)} {selectedIngredient.type}</p>
+								<p>Typ: {determineFoodTypeIcon(selectedIngredient.type)} {selectedIngredient.type}</p>
+								<p>Energie: {selectedIngredient.power} <FontAwesomeIcon icon={faCloud}/></p>
+								<p>Verkauf: {selectedIngredient.revenue} <FontAwesomeIcon icon={faCoins}/></p>
 							</div>
 							<button className="App__window__button" onClick={() => handleHideIngredientsWindow()}>Danke</button>
 						</div>

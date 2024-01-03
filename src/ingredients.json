@@ -3,365 +3,508 @@
     {
       "title": "Kakaobohne",
       "positions": ["Sonnige Ebene", "Lichtung des Vertrauens"],
-      "type": "Süßigkeiten"
+      "type": "Süßigkeiten",
+      "power": 450,
+      "revenue": 38
     },
     {
       "title": "Kaffeebohne",
       "positions": ["Lichtung des Vertrauens"],
-      "type": "Süßigkeiten"
+      "type": "Süßigkeiten",
+      "power": 425,
+      "revenue": 36
     },
     {
       "title": "Vanille",
       "positions": ["Sonnige Ebene"],
-      "type": "Süßigkeiten"
+      "type": "Süßigkeiten",
+      "power": 135,
+      "revenue": 60
     },
     
     {
       "title": "Basilikum",
       "positions": ["Friedliche Wiese"],
-      "type": "Gewürze und Kräuter"
+      "type": "Gewürze und Kräuter",
+      "power": 100,
+      "revenue": 25
     },
     {
       "title": "Champignon",
       "positions": ["Lichtung des Vertrauens"],
-      "type": "Gewürze und Kräuter"
+      "type": "Gewürze und Kräuter",
+      "power": 105,
+      "revenue": 30
     },
     {
       "title": "Ingwer",
       "positions": ["Vergessenes Land"],
-      "type": "Gewürze und Kräuter"
+      "type": "Gewürze und Kräuter",
+      "power": 175,
+      "revenue": 100
     },
     {
       "title": "Knoblauch",
       "positions": ["Wald der Tapferkeit"],
-      "type": "Gewürze und Kräuter"
+      "type": "Gewürze und Kräuter",
+      "power": 135,
+      "revenue": 60
     },
     {
       "title": "Minze",
-      "positions": ["Plaza"],
-      "type": "Gewürze und Kräuter"
+      "positions": ["Hauptplatz"],
+      "type": "Gewürze und Kräuter",
+      "power": 155,
+      "revenue": 80
     },
     {
       "title": "Oregano",
       "positions": ["Wald der Tapferkeit"],
-      "type": "Gewürze und Kräuter"
+      "type": "Gewürze und Kräuter",
+      "power": 95,
+      "revenue": 20
     },
 
     {
       "title": "Spargel",
       "positions": ["Eisige Höhen"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 42,
+      "revenue": 133
     },
     {
       "title": "Paprika",
       "positions": ["Wald der Tapferkeit"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 79,
+      "revenue": 33
     },
     {
       "title": "Karotte",
       "positions": ["Friedliche Wiese"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 57,
+      "revenue": 44
     },
     {
       "title": "Chilischote",
       "positions": ["Sonnige Ebene"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 140,
+      "revenue": 78
     },
     {
       "title": "Gurke",
       "positions": ["Eisige Höhen"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 145,
+      "revenue": 159
     },
     {
       "title": "Aubergine",
       "positions": ["Eisige Höhen"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 451,
+      "revenue": 308
     },
     {
       "title": "Lauch",
       "positions": ["Vergessenes Land"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 228,
+      "revenue": 309
     },
     {
       "title": "Salat",
       "positions": ["Friedliche Wiese"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 56,
+      "revenue": 8
     },
     {
       "title": "Okra",
       "positions": ["Lichtung des Vertrauens"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 31,
+      "revenue": 114
     },
     {
       "title": "Zwiebel",
       "positions": ["Wald der Tapferkeit"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 146,
+      "revenue": 170
     },
     {
       "title": "Kartoffel",
       "positions": ["Vergessenes Land"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 113,
+      "revenue": 126
     },
     {
       "title": "Kürbis",
       "positions": ["Vergessenes Land"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 187,
+      "revenue": 664
     },
     {
       "title": "Spinat",
       "positions": ["Lichtung des Vertrauens"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 60,
+      "revenue": 41
     },
     {
       "title": "Tomate",
       "positions": ["Schillernder Strand"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 21,
+      "revenue": 22
     },
     {
       "title": "Zucchini",
       "positions": ["Sonnige Ebene"],
-      "type": "Gemüse"
+      "type": "Gemüse",
+      "power": 48,
+      "revenue": 37
     },
     {
       "title": "Raps",
       "positions": ["Wald der Tapferkeit"],
-      "type": "Getreide"
+      "type": "Getreide",
+      "power": 59,
+      "revenue": 109
     },
     {
       "title": "Mais",
       "positions": ["Schillernder Strand"],
-      "type": "Getreide"
+      "type": "Getreide",
+      "power": 30,
+      "revenue": 16
     },
     {
       "title": "Reis",
       "positions": ["Lichtung des Vertrauens"],
-      "type": "Getreide"
+      "type": "Getreide",
+      "power": 59,
+      "revenue": 61
     },
     {
       "title": "Soja",
       "positions": ["Sonnige Ebene"],
-      "type": "Getreide"
+      "type": "Getreide",
+      "power": 58,
+      "revenue": 69
     },
     {
       "title": "Zuckerrohr",
       "positions": ["Schillernder Strand"],
-      "type": "Getreide"
+      "type": "Getreide",
+      "power": 46,
+      "revenue": 19
     },
     {
       "title": "Weizen",
       "positions": ["Friedliche Wiese"],
-      "type": "Getreide"
+      "type": "Getreide",
+      "power": 19,
+      "revenue": 2
     },
     {
       "title": "Apfel",
-      "positions": ["Vergessenes Land", "Plaza"],
-      "type": "Früchte"
+      "positions": ["Vergessenes Land", "Hauptplatz"],
+      "type": "Früchte",
+      "power": 300,
+      "revenue": 25
     },
     {
       "title": "Banane",
       "positions": ["Friedliche Wiese", "Schillernder Strand"],
-      "type": "Früchte"
+      "type": "Früchte",
+      "power": 350,
+      "revenue": 29
     },
     {
       "title": "Blaubeere",
       "positions": ["Wald der Tapferkeit", "Schillernder Strand"],
-      "type": "Früchte"
+      "type": "Früchte",
+      "power": 350,
+      "revenue": 29
     },
     {
       "title": "Kirsche",
       "positions": ["Eisige Höhen", "Sonnige Ebene"],
-      "type": "Früchte"
+      "type": "Früchte",
+      "power": 500,
+      "revenue": 42
     },
     {
       "title": "Kokosnuss",
       "positions": ["Schillernder Strand"],
-      "type": "Früchte"
+      "type": "Früchte",
+      "power": 500,
+      "revenue": 42
     },
     {
       "title": "Stachelbeere",
       "positions": ["Eisige Höhen", "Vergessenes Land"],
-      "type": "Früchte"
+      "type": "Früchte",
+      "power": 600,
+      "revenue": 50
     },
     {
       "title": "Zitrone",
       "positions": ["Wald der Tapferkeit", "Lichtung des Vertrauens"],
-      "type": "Früchte"
+      "type": "Früchte",
+      "power": 400,
+      "revenue": 33
     },
     {
       "title": "Himbeere",
-      "positions": ["Plaza", "Friedliche Wiese"],
-      "type": "Früchte"
+      "positions": ["Hauptplatz", "Friedliche Wiese"],
+      "type": "Früchte",
+      "power": 250,
+      "revenue": 21
     },
     {
       "title": "Muschel",
       "positions": ["Schillernder Strand"],
-      "type": "Meeresfrüchte"
+      "type": "Meeresfrüchte",
+      "power": 120,
+      "revenue": 45
     },
     {
       "title": "Auster",
       "positions": ["Schillernder Strand"],
-      "type": "Meeresfrüchte"
+      "type": "Meeresfrüchte",
+      "power": 250,
+      "revenue": 250
     },
     {
       "title": "Jakobsmuschel",
       "positions": ["Schillernder Strand"],
-      "type": "Meeresfrüchte"
+      "type": "Meeresfrüchte",
+      "power": 125,
+      "revenue": 50
     },
-
     {
       "title": "Butter",
       "positions": ["Chez Remys"],
-      "type": "Anderes"
+      "type": "Anderes",
+      "power": 285,
+      "revenue": 190
     },
     {
       "title": "Ei",
       "positions": ["Chez Remys"],
-      "type": "Anderes"
+      "type": "Anderes",
+      "power": 330,
+      "revenue": 220
     },
     {
       "title": "Erdnuss",
       "positions": ["Chez Remys"],
-      "type": "Anderes"
+      "type": "Anderes",
+      "power": 300,
+      "revenue": 200
     },
     {
       "title": "Käse",
       "positions": ["Chez Remys"],
-      "type": "Anderes"
+      "type": "Anderes",
+      "power": 270,
+      "revenue": 180
     },
     {
       "title": "Milch",
       "positions": ["Chez Remys"],
-      "type": "Anderes"
+      "type": "Anderes",
+      "power": 345,
+      "revenue": 230
     },
     {
       "title": "Slush-Eis",
       "positions": ["Chez Remys"],
-      "type": "Anderes"
+      "type": "Anderes",
+      "power": 225,
+      "revenue": 150
     },
     {
       "title": "Barsch",
       "positions": ["Friedliche Wiese", "Wald der Tapferkeit", "Sonnige Ebene", "Eisige Höhen"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 150,
+      "revenue": 25
     },
     {
       "title": "Brasse",
       "positions": ["Friedliche Wiese"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 1300,
+      "revenue": 600
     },
     {
       "title": "Buntbarsch",
       "positions": ["Eisige Höhen", "Sonnige Ebene"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 1150,
+      "revenue": 600
     },
     {
       "title": "Flussbarsch",
       "positions": ["Sonnige Ebene", "Wald der Tapferkeit"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 400,
+      "revenue": 80
     },
     {
       "title": "Fugu",
       "positions": ["Schillernder Strand"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 1700,
+      "revenue": 900
     },
     {
       "title": "Garnele",
       "positions": ["Schillernder Strand"],
-      "type": "Fische"
+      "type": "Meeresfrüchte",
+      "power": 750,
+      "revenue": 300
     },
     {
       "title": "Hecht",
       "positions": ["Wald der Tapferkeit"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 1500,
+      "revenue": 800
     },
     {
       "title": "Hering",
       "positions": ["Schillernder Strand", "Lichtung des Vertrauens"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 250,
+      "revenue": 65
     },
     {
       "title": "Hummer",
       "positions": ["Lichtung des Vertrauens"],
-      "type": "Fische"
+      "type": "Meeresfrüchte",
+      "power": 1600,
+      "revenue": 950
     },
     {
       "title": "Kabeljau",
       "positions": ["Schillernder Strand", "Lichtung des Vertrauens", "Vergessenes Land"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 150,
+      "revenue": 35
     },
     {
       "title": "Karpfen",
       "positions": ["Wald der Tapferkeit", "Sonnige Ebene"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 800,
+      "revenue": 400
     },
     {
       "title": "Königsfisch",
       "positions": ["Schillernder Strand"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 800,
+      "revenue": 450
     },
     {
       "title": "Krabbe",
       "positions": ["Eisige Höhen"],
-      "type": "Fische"
+      "type": "Meeresfrüchte",
+      "power": 1200,
+      "revenue": 600
     },
     {
       "title": "Lachs",
       "positions": ["Schillernder Strand", "Eisige Höhen"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 500,
+      "revenue": 150
     },
     {
       "title": "Lanzenfisch",
       "positions": ["Vergessenes Land"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 1300,
+      "revenue": 650
     },
     {
       "title": "Regenbogenforelle",
       "positions": ["Friedliche Wiese", "Wald der Tapferkeit"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 300,
+      "revenue": 50
     },
     {
       "title": "Schwertfisch",
       "positions": ["Schillernder Strand"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 1500,
+      "revenue": 700
     },
     {
       "title": "Seetang",
       "positions": ["Friedliche Wiese", "Wald der Tapferkeit", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land", "Schillernder Strand"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 20,
+      "revenue": 25
     },
     {
       "title": "Seeteufel",
       "positions": ["Vergessenes Land"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 2000,
+      "revenue": 1500
     },
     {
       "title": "Seezunge",
       "positions": ["Vergessenes Land"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 500,
+      "revenue": 200
     },
     {
       "title": "Thunfisch",
       "positions": ["Lichtung des Vertrauens", "Vergessenes Land"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 350,
+      "revenue": 95
     },
     {
       "title": "Tintenfisch",
       "positions": ["Lichtung des Vertrauens", "Vergessenes Land"],
-      "type": "Fische"
+      "type": "Meeresfrüchte",
+      "power": 1000,
+      "revenue": 500
     },
     {
       "title": "Stör",
       "positions": ["Eisige Höhen"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 1800,
+      "revenue": 1200
     },
     {
       "title": "Wels",
       "positions": ["Friedliche Wiese"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 1200,
+      "revenue": 550
     },
     {
       "title": "Zander",
       "positions": ["Sonnige Ebene"],
-      "type": "Fische"
+      "type": "Fische",
+      "power": 1700,
+      "revenue": 1100
     }
   ]
 }
