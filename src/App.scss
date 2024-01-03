@@ -20,6 +20,14 @@ body {
 		background: $primary-color;
 		height: 100vh;
 
+		&__character
+		{
+			position: absolute;
+			z-index: 500;
+			right: 0;
+			bottom: 0;
+		}
+
 		&__wrapper
 		{
 			background: white;
@@ -36,8 +44,19 @@ body {
 			padding: 1rem;
 		}
 
+		&__title
+		{
+			z-index: 1000;
+		}
+
+		&__text
+		{
+			z-index: 1000;
+		}
+
 		&__button
 		{
+			z-index: 1000;
 			background: $primary-color;
 			border: none;
 			color: white;
