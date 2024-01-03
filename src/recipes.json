@@ -30,7 +30,7 @@
       "ingredients": [
         "Gewürz",
         "Milch",
-        "Kartoffeln",
+        "Kartoffel",
         "Gemüse"
       ],
       "rating": 4
@@ -58,12 +58,12 @@
     },
     {
       "title": "Gazpacho",
-      "ingredients": ["Gurke", "Tomaten", "Zwiebeln", "Gewürz"],
+      "ingredients": ["Gurke", "Tomate", "Zwiebel", "Gewürz"],
       "rating": 4
     },
     {
       "title": "Gebratene Champignons",
-      "ingredients": ["Pilz", "Butter"],
+      "ingredients": ["Champignon", "Butter"],
       "rating": 2
     },
     {
@@ -113,7 +113,7 @@
     },
     {
       "title": "Kaffee",
-      "ingredients": ["Kaffeebohnen"],
+      "ingredients": ["Kaffeebohne"],
       "rating": 1
     },
     {
@@ -143,7 +143,7 @@
     },
     {
       "title": "Latte",
-      "ingredients": ["Kaffeebohnen", "Milch"],
+      "ingredients": ["Kaffeebohne", "Milch"],
       "rating": 2
     },
     {
@@ -158,7 +158,7 @@
     },
     {
       "title": "Mokka",
-      "ingredients": ["Kaffeebohnen", "Milch", "Kakao"],
+      "ingredients": ["Kaffeebohne", "Milch", "Kakaobohne"],
       "rating": 3
     },
     {
@@ -168,7 +168,7 @@
     },
     {
       "title": "Paprikarollen",
-      "ingredients": ["Paprika", "Eier", "Käse"],
+      "ingredients": ["Paprika", "Ei", "Käse"],
       "rating": 3
     },
     {
@@ -178,7 +178,7 @@
     },
     {
       "title": "Pommes",
-      "ingredients": ["Raps", "Kartoffeln"],
+      "ingredients": ["Raps", "Kartoffel"],
       "rating": 2
     },
     {
@@ -223,7 +223,7 @@
     },
     {
       "title": "Zwiebel-Bällchen",
-      "ingredients": ["Zwiebeln", "Eier", "Käse"],
+      "ingredients": ["Zwiebel", "Ei", "Käse"],
       "rating": 3
     },
     {
@@ -238,7 +238,7 @@
         "Meeresfrüchte",
         "Gemüse",
         "Garnelen",
-        "Tomaten"
+        "Tomate"
       ],
       "rating": 5
     },
@@ -249,12 +249,12 @@
     },
     {
       "title": "Champignon-Pizza",
-      "ingredients": ["Pilz", "Weizen", "Tomate", "Käse"],
+      "ingredients": ["Champignon", "Weizen", "Tomate", "Käse"],
       "rating": 4
     },
     {
       "title": "Cremige Knoblauch-Jakobsmuscheln",
-      "ingredients": ["Jakobsmuscheln", "Zitrone", "Butter", "Knoblauch"],
+      "ingredients": ["Jakobsmuschel", "Zitrone", "Butter", "Knoblauch"],
       "rating": 4
     },
     {
@@ -304,12 +304,12 @@
     },
     {
       "title": "Fisch-Tacos",
-      "ingredients": ["Fisch", "Mais", "Chilischoten", "Käse"],
+      "ingredients": ["Fisch", "Mais", "Chilischote", "Käse"],
       "rating": 4
     },
     {
       "title": "Fugu-Sushi",
-      "ingredients": ["Kugelfisch", "Reis", "Algen"],
+      "ingredients": ["Fugu", "Reis", "Seetang"],
       "rating": 3
     },
     {
@@ -329,7 +329,7 @@
     },
     {
       "title": "Gedämpfter Fugu",
-      "ingredients": ["Kugelfisch/Fugu", "Ingwer", "Knoblauch"],
+      "ingredients": ["Fugu", "Ingwer", "Knoblauch"],
       "rating": 3
     },
     {
@@ -365,7 +365,7 @@
     },
     {
       "title": "Gemüseeintopf",
-      "ingredients": ["Zwiebel", "Karotte", "Kartoffeln"],
+      "ingredients": ["Zwiebel", "Karotte", "Kartoffel"],
       "rating": 3
     },
     {
@@ -464,9 +464,9 @@
       "rating": 3
     },
     {
-      "title": "Lanzettfisch-Paella",
+      "title": "Lanzenfisch-Paella",
       "ingredients": [
-        "Lanzettfisch",
+        "Lanzenfisch",
         "Garnelen",
         "Meeresfrüchte",
         "Tomate",
@@ -501,12 +501,12 @@
     },
     {
       "title": "Maki",
-      "ingredients": ["Fisch", "Algen", "Reis"],
+      "ingredients": ["Fisch", "Seetang", "Reis"],
       "rating": 3
     },
     {
       "title": "Mediterraner Salat",
-      "ingredients": ["Gurken", "Tomaten", "Zwiebeln", "Salat", "Gewürz"],
+      "ingredients": ["Gurke", "Tomate", "Zwiebel", "Salat", "Gewürz"],
       "rating": 5
     },
     {
@@ -608,7 +608,7 @@
 
     {
       "title": "Sake Maki",
-      "ingredients": ["Lachs", "Algen", "Reis"],
+      "ingredients": ["Lachs", "Seetang", "Reis"],
       "rating": 3
     },
 
@@ -760,12 +760,12 @@
     },
     {
       "title": "Baumstammkuchen",
-      "ingredients": ["Weizen", "Kakao", "Vanille", "Kirsche"],
+      "ingredients": ["Weizen", "Kakaobohne", "Vanille", "Kirsche"],
       "rating": 4
     },
     {
       "title": "Beerensalat",
-      "ingredients": ["Himbeere", "Stachelbeere", "Heidelbeere"],
+      "ingredients": ["Himbeere", "Stachelbeere", "Blaubeere"],
       "rating": 3
     },
     {
@@ -884,7 +884,7 @@
     },
     {
       "title": "Heißer Kakao",
-      "ingredients": ["Zuckerrohr", "Milch", "Kakao"],
+      "ingredients": ["Zuckerrohr", "Milch", "Kakaobohne"],
       "rating": 3
     },
     {
@@ -928,7 +928,7 @@
     },
     {
       "title": "Konfitüre-Waffeln",
-      "ingredients": ["Obst", "Weizen", "Eier", "Milch"],
+      "ingredients": ["Obst", "Weizen", "Ei", "Milch"],
       "rating": 4
     },
     {
@@ -938,7 +938,7 @@
     },
     {
       "title": "Lebkuchenhaus",
-      "ingredients": ["Weizen", "Ingwer", "Zuckerrohr", "Vanille", "Eier"],
+      "ingredients": ["Weizen", "Ingwer", "Zuckerrohr", "Vanille", "Ei"],
       "rating": 5
     },
 
@@ -1038,7 +1038,6 @@
       "ingredients": ["Milch", "Slush-Eis", "Dreamlight-Frucht"],
       "rating": 3
     },
-
     {
       "title": "Tropische Limo",
       "ingredients": ["Frucht", "Kokosnuss", "Zuckerrohr", "Slush-Eis"],

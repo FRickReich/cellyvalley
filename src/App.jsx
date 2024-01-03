@@ -4,6 +4,8 @@ import recipesData from './recipes.json';
 import ingredientsData from './ingredients.json';
 
 import './App.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAppleAlt, faBan, faBowlFood, faCarrot, faIceCream, faMortarPestle, faShrimp, faStopCircle, faWheatAwn } from '@fortawesome/free-solid-svg-icons';
 
 const App = () => {
 	const [searchTerm, setSearchTerm] = useState('');
@@ -13,8 +15,7 @@ const App = () => {
 	const [selectedIngredient, setSelectedIngredient] = useState({});
 
 	useEffect(() => {
-		if(currentIngredient)
-		{
+		if (currentIngredient) {
 			setSelectedIngredient(ingredientsData.ingredients.find(ing => ing.title === currentIngredient));
 		}
 
@@ -32,32 +33,64 @@ const App = () => {
 		})
 		.sort((a, b) => a.title.localeCompare(b.title));
 
-		const getUniqueIngredients = () => {
-			const allIngredients = recipesData.recipes.reduce(
-				(acc, recipe) => [...acc, ...recipe.ingredients],
-				[]
-			);
-		
-			return [...new Set(allIngredients)].sort();
-		};
-		
-		const determineIngredientColor = (ingredientTitle) => {
-			const ingredient = ingredientsData.ingredients.find(item => item.title === ingredientTitle);
-		
-			// If the ingredient is found, return 'blue'; otherwise, return 'gray'
-			return ingredient ? 'blue' : 'gray';
-		};
+	const getUniqueIngredients = () => {
+		const allIngredients = recipesData.recipes.reduce(
+			(acc, recipe) => [...acc, ...recipe.ingredients],
+			[]
+		);
 
-		const handleShowIngredientsWindow = (ingredient) =>
-		{
-			setCurrentIngredient(ingredient);
-			setShowIngredientWindow(true);
-		}
+		return [...new Set(allIngredients)].sort();
+	};
 
-		const handleHideIngredientsWindow = () => {
-			setShowIngredientWindow(false);
-			setCurrentIngredient(undefined);
+	const determineIngredientColor = (ingredientTitle) => {
+		const ingredient = ingredientsData.ingredients.find(item => item.title === ingredientTitle);
+
+		// If the ingredient is found, return 'blue'; otherwise, return 'gray'
+		return ingredient ? 'blue' : 'gray';
+	};
+
+	const determineFoodTypeIcon = (ingredientType) => {
+
+		let selectedIcon;
+
+		switch (ingredientType) {
+			case "Gemüse":
+				selectedIcon = faCarrot;
+				break;
+			case "Früchte":
+				selectedIcon = faAppleAlt;
+				break;
+			case "Getreide":
+				selectedIcon = faWheatAwn;
+				break;
+			case "Anderes":
+				selectedIcon = faBowlFood;
+				break;
+			case "Gewürze und Kräuter":
+				selectedIcon = faMortarPestle;
+				break;
+			case "Süßigkeiten":
+				selectedIcon = faIceCream;
+				break;
+			case "Meeresfrüchte":
+				selectedIcon = faShrimp;
+				break;
+			default:
+				selectedIcon = faBan;
+				break;
 		}
+		return <FontAwesomeIcon icon={selectedIcon} />;
+	}
+
+	const handleShowIngredientsWindow = (ingredient) => {
+		setCurrentIngredient(ingredient);
+		setShowIngredientWindow(true);
+	}
+
+	const handleHideIngredientsWindow = () => {
+		setShowIngredientWindow(false);
+		setCurrentIngredient(undefined);
+	}
 
 	return (
 		<div className='App'>
@@ -65,24 +98,28 @@ const App = () => {
 			{
 				showIngredientWindow && (
 					<div className='App__window'>
-						<h3 className="App__window__title">{ selectedIngredient.title }</h3>
-						<div className="App__window__text">
-							<p>
-								Hier findest du diese Zutat:
-							</p>
-							<ul>
-								{
-									selectedIngredient?.positions?.map((pos, i) => (
-										<li key={i}>{pos}</li>
-									))
-								}
-							</ul>
+						<div className="App__window__wrapper">
+
+							<h3 className="App__window__title">{determineFoodTypeIcon(selectedIngredient.type)} {selectedIngredient.title}</h3>
+							<div className="App__window__text">
+								<p>
+									Hier findest du diese Zutat:
+								</p>
+								<ul>
+									{
+										selectedIngredient?.positions?.map((pos, i) => (
+											<li key={i}>{pos}</li>
+											))
+										}
+								</ul>
+								<p>Die Zutat ist vom Typ: {determineFoodTypeIcon(selectedIngredient.type)} {selectedIngredient.type}</p>
+							</div>
+							<button className="App__window__button" onClick={() => handleHideIngredientsWindow()}>Danke</button>
 						</div>
-						<button className="App__window__button" onClick={() => handleHideIngredientsWindow()}>Danke</button>
 					</div>
 				)
 			}
-			
+
 
 			<header className="App__header">
 				<h1>CellyValley Rezepte</h1>
@@ -131,8 +168,8 @@ const App = () => {
 						>
 							<h3 className='App__container__list__item__title'>{recipe.title}</h3>
 							<p className='App__container__list__item__ingredients'>{recipe.ingredients.map((ingredient, r) => (
-								<span 
-									key={r} 
+								<span
+									key={r}
 									style={{ color: determineIngredientColor(ingredient) }}
 									onClick={() => determineIngredientColor(ingredient) === "blue" ? handleShowIngredientsWindow(ingredient) : undefined}
 								>

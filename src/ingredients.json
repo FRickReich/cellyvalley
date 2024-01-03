@@ -1,136 +1,367 @@
 {
   "ingredients": [
     {
+      "title": "Kakaobohne",
+      "positions": ["Sonnige Ebene", "Lichtung des Vertrauens"],
+      "type": "Süßigkeiten"
+    },
+    {
+      "title": "Kaffeebohne",
+      "positions": ["Lichtung des Vertrauens"],
+      "type": "Süßigkeiten"
+    },
+    {
+      "title": "Vanille",
+      "positions": ["Sonnige Ebene"],
+      "type": "Süßigkeiten"
+    },
+    
+    {
+      "title": "Basilikum",
+      "positions": ["Friedliche Wiese"],
+      "type": "Gewürze und Kräuter"
+    },
+    {
+      "title": "Champignon",
+      "positions": ["Lichtung des Vertrauens"],
+      "type": "Gewürze und Kräuter"
+    },
+    {
+      "title": "Ingwer",
+      "positions": ["Vergessenes Land"],
+      "type": "Gewürze und Kräuter"
+    },
+    {
+      "title": "Knoblauch",
+      "positions": ["Wald der Tapferkeit"],
+      "type": "Gewürze und Kräuter"
+    },
+    {
+      "title": "Minze",
+      "positions": ["Plaza"],
+      "type": "Gewürze und Kräuter"
+    },
+    {
+      "title": "Oregano",
+      "positions": ["Wald der Tapferkeit"],
+      "type": "Gewürze und Kräuter"
+    },
+
+    {
       "title": "Spargel",
-      "positions": ["Eisige Höhen"]
+      "positions": ["Eisige Höhen"],
+      "type": "Gemüse"
     },
     {
       "title": "Paprika",
-      "positions": ["Wald der Tapferkeit"]
+      "positions": ["Wald der Tapferkeit"],
+      "type": "Gemüse"
     },
     {
       "title": "Karotte",
-      "positions": ["Friedliche Wiese"]
+      "positions": ["Friedliche Wiese"],
+      "type": "Gemüse"
     },
     {
-      "title": "Chili-Pfeffer",
-      "positions": ["Sonnige Ebene"]
+      "title": "Chilischote",
+      "positions": ["Sonnige Ebene"],
+      "type": "Gemüse"
     },
     {
       "title": "Gurke",
-      "positions": ["Eisige Höhen"]
+      "positions": ["Eisige Höhen"],
+      "type": "Gemüse"
     },
     {
       "title": "Aubergine",
-      "positions": ["Eisige Höhen"]
+      "positions": ["Eisige Höhen"],
+      "type": "Gemüse"
     },
     {
       "title": "Lauch",
-      "positions": ["Vergessenes Land"]
+      "positions": ["Vergessenes Land"],
+      "type": "Gemüse"
     },
     {
-      "title": "Kopfsalat",
-      "positions": ["Friedliche Wiese"]
+      "title": "Salat",
+      "positions": ["Friedliche Wiese"],
+      "type": "Gemüse"
     },
     {
       "title": "Okra",
-      "positions": ["Lichtung des Vertrauens"]
+      "positions": ["Lichtung des Vertrauens"],
+      "type": "Gemüse"
     },
     {
       "title": "Zwiebel",
-      "positions": ["Wald der Tapferkeit"]
+      "positions": ["Wald der Tapferkeit"],
+      "type": "Gemüse"
     },
     {
       "title": "Kartoffel",
-      "positions": ["Vergessenes Land"]
+      "positions": ["Vergessenes Land"],
+      "type": "Gemüse"
     },
     {
       "title": "Kürbis",
-      "positions": ["Vergessenes Land"]
+      "positions": ["Vergessenes Land"],
+      "type": "Gemüse"
     },
     {
       "title": "Spinat",
-      "positions": ["Lichtung des Vertrauens"]
+      "positions": ["Lichtung des Vertrauens"],
+      "type": "Gemüse"
     },
     {
       "title": "Tomate",
-      "positions": ["Schillernder Strand"]
+      "positions": ["Schillernder Strand"],
+      "type": "Gemüse"
     },
     {
       "title": "Zucchini",
-      "positions": ["Sonnige Ebene"]
+      "positions": ["Sonnige Ebene"],
+      "type": "Gemüse"
     },
     {
       "title": "Raps",
-      "positions": ["Wald der Tapferkeit"]
+      "positions": ["Wald der Tapferkeit"],
+      "type": "Getreide"
     },
     {
       "title": "Mais",
-      "positions": ["Schillernder Strand"]
+      "positions": ["Schillernder Strand"],
+      "type": "Getreide"
     },
     {
       "title": "Reis",
-      "positions": ["Lichtung des Vertrauens"]
+      "positions": ["Lichtung des Vertrauens"],
+      "type": "Getreide"
     },
     {
       "title": "Soja",
-      "positions": ["Sonnige Ebene"]
+      "positions": ["Sonnige Ebene"],
+      "type": "Getreide"
     },
     {
       "title": "Zuckerrohr",
-      "positions": ["Schillernder Strand"]
+      "positions": ["Schillernder Strand"],
+      "type": "Getreide"
     },
     {
       "title": "Weizen",
-      "positions": ["Friedliche Wiese"]
+      "positions": ["Friedliche Wiese"],
+      "type": "Getreide"
     },
     {
       "title": "Apfel",
-      "positions": ["Vergessenes Land", "Plaza"]
+      "positions": ["Vergessenes Land", "Plaza"],
+      "type": "Früchte"
     },
     {
       "title": "Banane",
-      "positions": ["Friedliche Wiese", "Schillernder Strand"]
+      "positions": ["Friedliche Wiese", "Schillernder Strand"],
+      "type": "Früchte"
     },
     {
       "title": "Blaubeere",
-      "positions": ["Wald der Tapferkeit", "Schillernder Strand"]
+      "positions": ["Wald der Tapferkeit", "Schillernder Strand"],
+      "type": "Früchte"
     },
     {
       "title": "Kirsche",
-      "positions": ["Eisige Höhen", "Sonnige Ebene"]
-    },
-    {
-      "title": "Kakaobohne",
-      "positions": ["Sonnige Ebene", "Lichtung des Vertrauens"]
+      "positions": ["Eisige Höhen", "Sonnige Ebene"],
+      "type": "Früchte"
     },
     {
       "title": "Kokosnuss",
-      "positions": ["Schillernder Strand"]
+      "positions": ["Schillernder Strand"],
+      "type": "Früchte"
     },
     {
       "title": "Stachelbeere",
-      "positions": ["Eisige Höhen", "Vergessenes Land"]
+      "positions": ["Eisige Höhen", "Vergessenes Land"],
+      "type": "Früchte"
     },
     {
       "title": "Zitrone",
-      "positions": ["Wald der Tapferkeit", "Lichtung des Vertrauens"]
+      "positions": ["Wald der Tapferkeit", "Lichtung des Vertrauens"],
+      "type": "Früchte"
     },
     {
       "title": "Himbeere",
-      "positions": ["Plaza", "Friedliche Wiese"]
+      "positions": ["Plaza", "Friedliche Wiese"],
+      "type": "Früchte"
     },
     {
       "title": "Muschel",
-      "positions": ["Schillernder Strand"]
+      "positions": ["Schillernder Strand"],
+      "type": "Meeresfrüchte"
     },
     {
       "title": "Auster",
-      "positions": ["Schillernder Strand"]
+      "positions": ["Schillernder Strand"],
+      "type": "Meeresfrüchte"
     },
     {
       "title": "Jakobsmuschel",
-      "positions": ["Schillernder Strand"]
+      "positions": ["Schillernder Strand"],
+      "type": "Meeresfrüchte"
+    },
+
+    {
+      "title": "Butter",
+      "positions": ["Chez Remys"],
+      "type": "Anderes"
+    },
+    {
+      "title": "Ei",
+      "positions": ["Chez Remys"],
+      "type": "Anderes"
+    },
+    {
+      "title": "Erdnuss",
+      "positions": ["Chez Remys"],
+      "type": "Anderes"
+    },
+    {
+      "title": "Käse",
+      "positions": ["Chez Remys"],
+      "type": "Anderes"
+    },
+    {
+      "title": "Milch",
+      "positions": ["Chez Remys"],
+      "type": "Anderes"
+    },
+    {
+      "title": "Slush-Eis",
+      "positions": ["Chez Remys"],
+      "type": "Anderes"
+    },
+    {
+      "title": "Barsch",
+      "positions": ["Friedliche Wiese", "Wald der Tapferkeit", "Sonnige Ebene", "Eisige Höhen"],
+      "type": "Fische"
+    },
+    {
+      "title": "Brasse",
+      "positions": ["Friedliche Wiese"],
+      "type": "Fische"
+    },
+    {
+      "title": "Buntbarsch",
+      "positions": ["Eisige Höhen", "Sonnige Ebene"],
+      "type": "Fische"
+    },
+    {
+      "title": "Flussbarsch",
+      "positions": ["Sonnige Ebene", "Wald der Tapferkeit"],
+      "type": "Fische"
+    },
+    {
+      "title": "Fugu",
+      "positions": ["Schillernder Strand"],
+      "type": "Fische"
+    },
+    {
+      "title": "Garnele",
+      "positions": ["Schillernder Strand"],
+      "type": "Fische"
+    },
+    {
+      "title": "Hecht",
+      "positions": ["Wald der Tapferkeit"],
+      "type": "Fische"
+    },
+    {
+      "title": "Hering",
+      "positions": ["Schillernder Strand", "Lichtung des Vertrauens"],
+      "type": "Fische"
+    },
+    {
+      "title": "Hummer",
+      "positions": ["Lichtung des Vertrauens"],
+      "type": "Fische"
+    },
+    {
+      "title": "Kabeljau",
+      "positions": ["Schillernder Strand", "Lichtung des Vertrauens", "Vergessenes Land"],
+      "type": "Fische"
+    },
+    {
+      "title": "Karpfen",
+      "positions": ["Wald der Tapferkeit", "Sonnige Ebene"],
+      "type": "Fische"
+    },
+    {
+      "title": "Königsfisch",
+      "positions": ["Schillernder Strand"],
+      "type": "Fische"
+    },
+    {
+      "title": "Krabbe",
+      "positions": ["Eisige Höhen"],
+      "type": "Fische"
+    },
+    {
+      "title": "Lachs",
+      "positions": ["Schillernder Strand", "Eisige Höhen"],
+      "type": "Fische"
+    },
+    {
+      "title": "Lanzenfisch",
+      "positions": ["Vergessenes Land"],
+      "type": "Fische"
+    },
+    {
+      "title": "Regenbogenforelle",
+      "positions": ["Friedliche Wiese", "Wald der Tapferkeit"],
+      "type": "Fische"
+    },
+    {
+      "title": "Schwertfisch",
+      "positions": ["Schillernder Strand"],
+      "type": "Fische"
+    },
+    {
+      "title": "Seetang",
+      "positions": ["Friedliche Wiese", "Wald der Tapferkeit", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land", "Schillernder Strand"],
+      "type": "Fische"
+    },
+    {
+      "title": "Seeteufel",
+      "positions": ["Vergessenes Land"],
+      "type": "Fische"
+    },
+    {
+      "title": "Seezunge",
+      "positions": ["Vergessenes Land"],
+      "type": "Fische"
+    },
+    {
+      "title": "Thunfisch",
+      "positions": ["Lichtung des Vertrauens", "Vergessenes Land"],
+      "type": "Fische"
+    },
+    {
+      "title": "Tintenfisch",
+      "positions": ["Lichtung des Vertrauens", "Vergessenes Land"],
+      "type": "Fische"
+    },
+    {
+      "title": "Stör",
+      "positions": ["Eisige Höhen"],
+      "type": "Fische"
+    },
+    {
+      "title": "Wels",
+      "positions": ["Friedliche Wiese"],
+      "type": "Fische"
+    },
+    {
+      "title": "Zander",
+      "positions": ["Sonnige Ebene"],
+      "type": "Fische"
     }
   ]
 }
