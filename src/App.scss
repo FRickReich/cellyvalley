@@ -93,6 +93,7 @@ body {
 			&__item
 			{
 				color: lightgray;
+				font-size: 1.25rem;
 
 				&--active
 				{
@@ -126,7 +127,7 @@ body {
 	}
 
 	&__container {
-		max-height: calc(100vh - 4.5rem);
+		max-height: calc(100vh - 8rem);
 		overflow-y: auto;
 
 		&__list {

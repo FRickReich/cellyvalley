@@ -1,0 +1,386 @@
+{
+    "collectings": [
+        {
+            "title": "Blauer Bartfaden",
+            "positions": ["Hauptplatz"],
+            "revenue": 23
+        },
+        {
+            "title": "Lila Bartfaden",
+            "positions": ["Hauptplatz"],
+            "revenue": 23
+        },
+        {
+            "title": "Löwenzahn",
+            "positions": ["Hauptplatz"],
+            "revenue": 23
+        },
+        {
+            "title": "Roter Bartfaden",
+            "positions": ["Hauptplatz"],
+            "revenue": 18
+        },
+        {
+            "title": "Weißer und Rosafarbender Bartfaden",
+            "positions": ["Hauptplatz"],
+            "revenue": 41
+        },
+        {
+            "title": "Gelbes Gänseblümchen",
+            "positions": ["Friedliche Wiese"],
+            "revenue": 20
+        },
+        {
+            "title": "Grünblühender Bartfaden",
+            "positions": ["Friedliche Wiese"],
+            "revenue": 48
+        },
+        {
+            "title": "Rotes Gänseblümchen",
+            "positions": ["Friedliche Wiese"],
+            "revenue": 23
+        },
+        {
+            "title": "Violettblühender Bartfaden",
+            "positions": ["Friedliche Wiese"],
+            "revenue": 25
+        },
+        {
+            "title": "Weißes Gähnseblümchen",
+            "positions": ["Friedliche Wiese"],
+            "revenue": 25
+        },
+        {
+            "title": "Blaue Hortensie",
+            "positions": ["Schillernder Strand"],
+            "revenue": 28
+        },
+        {
+            "title": "Lila Hortensie",
+            "positions": ["Schillernder Strand"],
+            "revenue": 39
+        },
+        {
+            "title": "Rosa Hortensie",
+            "positions": ["Schillernder Strand"],
+            "revenue": 22
+        },
+        {
+            "title": "Sonnenblume",
+            "positions": ["Schillernder Strand"],
+            "revenue": 28
+        },
+        {
+            "title": "Weiß-rote Hortensie",
+            "positions": ["Schillernder Strand"],
+            "revenue": 54
+        },
+        {
+            "title": "Blaues Sumpfmilchkraut",
+            "positions": ["Lichtung des Vertrauens"],
+            "revenue": 48
+        },
+        {
+            "title": "Lilafarbenes Sumpfmilchkraut",
+            "positions": ["Lichtung des Vertrauens"],
+            "revenue": 25
+        },
+        {
+            "title": "Orangefarbenes Sumpfmilchkraut",
+            "positions": ["Lichtung des Vertrauens"],
+            "revenue": 33
+        },
+        {
+            "title": "Orange-Rotes Sumpfmilchkraut",
+            "positions": ["Lichtung des Vertrauens"],
+            "revenue": 66
+        },
+        {
+            "title": "Weißes Sumpfmilchkraut",
+            "positions": ["Lichtung des Vertrauens"],
+            "revenue": 33
+        },
+        {
+            "title": "Blaue Sternlilie",
+            "positions": ["Wald der Tapferkeit"],
+            "revenue": 30
+        },
+        {
+            "title": "Orangefarbene Sternlilie",
+            "positions": ["Wald der Tapferkeit"],
+            "revenue": 43
+        },
+        {
+            "title": "Lilane Glockenblume",
+            "positions": ["Wald der Tapferkeit"],
+            "revenue": 30
+        },
+        {
+            "title": "Rote Glockenblume",
+            "positions": ["Wald der Tapferkeit"],
+            "revenue": 23
+        },
+        {
+            "title": "Weiße Glockenblume",
+            "positions": ["Wald der Tapferkeit"],
+            "revenue": 60
+        },
+        {
+            "title": "Gelbe Bromelie",
+            "positions": ["Sonnige Ebene"],
+            "revenue": 73
+        },
+        {
+            "title": "Orangefarbene Hauswurz",
+            "positions": ["Sonnige Ebene"],
+            "revenue": 52
+        },
+        {
+            "title": "Rosa Bromelie",
+            "positions": ["Sonnige Ebene"],
+            "revenue": 27
+        },
+        {
+            "title": "Rosa Hauswurz",
+            "positions": ["Sonnige Ebene"],
+            "revenue": 35
+        },
+        {
+            "title": "Rote Bromelie",
+            "positions": ["Sonnige Ebene"],
+            "revenue": 27
+        },
+        {
+            "title": "Blaue Passionslilie",
+            "positions": ["Eisige Höhen"],
+            "revenue": 56
+        },
+        {
+            "title": "Grüne Passionslilie",
+            "positions": ["Eisige Höhen"],
+            "revenue": 28
+        },
+        {
+            "title": "Rote Passionslilie",
+            "positions": ["Eisige Höhen"],
+            "revenue": 38
+        },
+        {
+            "title": "Schwarze Passionslilie",
+            "positions": ["Eisige Höhen"],
+            "revenue": 79
+        },
+        {
+            "title": "Weiße Passionslilie",
+            "positions": ["Eisige Höhen"],
+            "revenue": 38
+        },
+        {
+            "title": "Gelbe Kapuzinerkresse",
+            "positions": ["Vergessenes Land"],
+            "revenue": 85
+        },
+        {
+            "title": "Orangefarbene Kapuzinerkresse",
+            "positions": ["Vergessenes Land"],
+            "revenue": 60
+        },
+        {
+            "title": "Lila Springkraut",
+            "positions": ["Vergessenes Land"],
+            "revenue": 40
+        },
+        {
+            "title": "Rote Kapuzinerkresse",
+            "positions": ["Vergessenes Land"],
+            "revenue": 40
+        },
+        {
+            "title": "Weißes Springkraut",
+            "positions": ["Vergessenes Land"],
+            "revenue": 30
+        },
+
+        {
+            "title": "Granat",
+            "positions": ["Hauptplatz", "Friedliche Wiese"],
+            "revenue": 160
+        },
+        {
+            "title": "Glänzender Granat",
+            "positions": ["Hauptplatz", "Friedliche Wiese"],
+            "revenue": 640
+        },
+        {
+            "title": "Topas",
+            "positions": ["Hauptplatz"],
+            "revenue": 240
+        },
+        {
+            "title": "Glänzender Topas",
+            "positions": ["Hauptplatz"],
+            "revenue": 960
+        },
+        {
+            "title": "Peridot",
+            "positions": ["Friedliche Wiese", "Schillernder Strand"],
+            "revenue": 200
+        },
+        {
+            "title": "Glänzender Peridot",
+            "positions": ["Friedliche Wiese", "Schillernder Strand"],
+            "revenue": 800
+        },
+        {
+            "title": "Aquamarin",
+            "positions": ["Schillernder Strand", "Wald der Tapferkeit"],
+            "revenue": 250
+        },
+        {
+            "title": "Glänzender Aquamarin",
+            "positions": ["Schillernder Strand", "Wald der Tapferkeit"],
+            "revenue": 1000
+        },
+        {
+            "title": "Smaragd",
+            "positions": ["Lichtung des Vertrauens", "Wald der Tapferkeit"],
+            "revenue": 325
+        },
+        {
+            "title": "Glänzender Smaragd",
+            "positions": ["Lichtung des Vertrauens", "Wald der Tapferkeit"],
+            "revenue": 1300
+        },
+        {
+            "title": "Citrin",
+            "positions": ["Lichtung des Vertrauens", "Sonnige Ebene"],
+            "revenue": 380
+        },
+        {
+            "title": "Glänzender Citrin",
+            "positions": ["Lichtung des Vertrauens", "Sonnige Ebene"],
+            "revenue": 1500
+        },
+        {
+            "title": "Turmalin",
+            "positions": ["Eisige Höhen", "Vergessenes Land"],
+            "revenue": 420
+        },
+        {
+            "title": "Glänzender Turmalin",
+            "positions": ["Eisige Höhen", "Vergessenes Land"],
+            "revenue": 1600
+        },
+        {
+            "title": "Amethyst",
+            "positions": ["Eisige Höhen", "Vergessenes Land"],
+            "revenue": 500
+        },
+        {
+            "title": "Glänzender Amethyst",
+            "positions": ["Eisige Höhen", "Vergessenes Land"],
+            "revenue": 2000
+        },
+        {
+            "title": "Diamant",
+            "positions": ["Vergessenes Land"],
+            "revenue": 600
+        },
+        {
+            "title": "Glänzender Diamant",
+            "positions": ["Vergessenes Land"],
+            "revenue": 2400
+        },
+
+        {
+            "title": "Baumwolle",
+            "positions": ["Sonnige Ebene"],
+            "revenue": 37
+        },
+        {
+            "title": "Dunkles Holz",
+            "positions": ["Vergessenes Land"],
+            "revenue": 50
+        },
+        {
+            "title": "Eisenerz",
+            "positions": ["Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land"],
+            "revenue": 10
+        },
+        {
+            "title": "Erde",
+            "positions": ["Hauptplatz", "Friedliche Wiese", "Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land"],
+            "revenue": 3
+        },
+        {
+            "title": "Goldklumpen",
+            "positions": ["Sonnige Ebene", "Eisige Höhen", "Vergessenes Land"],
+            "revenue": 20
+        },
+        {
+            "title": "Hartholz",
+            "positions": ["Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land"],
+            "revenue": 10
+        },
+        {
+            "title": "Kieselsteine",
+            "positions": ["Schillernder Strand", "Wald der Tapferkeit", "Sonnige Ebene", "Vergessenes Land"],
+            "revenue": 10
+        },
+        {
+            "title": "Kohleerz",
+            "positions": ["Hauptplatz", "Friedliche Wiese", "Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land", "Schillernder Strand"],
+            "revenue": 5
+        },
+        {
+            "title": "Kristall",
+            "positions": ["Vergessenes Land"],
+            "revenue": 30
+        },
+        {
+            "title": "Lehm",
+            "positions": ["Lichtung des Vertrauens", "Sonnige Ebene", "Vergessenes Land"],
+            "revenue": 20
+        },
+        {
+            "title": "Nachtscherbe",
+            "positions": ["Hauptplatz", "Friedliche Wiese", "Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land", "Schillernder Strand"],
+            "revenue": 0
+        },
+        {
+            "title": "Rote Alge",
+            "positions": ["Hauptplatz", "Friedliche Wiese", "Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land", "Schillernder Strand"],
+            "revenue": 150
+        },
+        {
+            "title": "Sand",
+            "positions": ["Schillernder Strand"],
+            "revenue": 8
+        },
+        {
+            "title": "Stein",
+            "positions": ["Hauptplatz", "Friedliche Wiese", "Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land", "Schillernder Strand"],
+            "revenue": 2
+        },
+        {
+            "title": "Schneeball",
+            "positions": ["Eisige Höhen"],
+            "revenue": 25
+        },
+        {
+            "title": "Traumscherbe",
+            "positions": ["Hauptplatz", "Friedliche Wiese", "Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land", "Schillernder Strand"],
+            "revenue": 0
+        },
+        {
+            "title": "Trockenes Holz",
+            "positions": ["Sonnige Ebene", "Eisige Höhen", "Vergessenes Land"],
+            "revenue": 25
+        },
+        {
+            "title": "Weichholz",
+            "positions": ["Hauptplatz", "Friedliche Wiese", "Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land"],
+            "revenue": 5
+        }   
+    ]
+}
