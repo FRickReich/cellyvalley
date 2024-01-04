@@ -3,384 +3,459 @@
         {
             "title": "Blauer Bartfaden",
             "positions": ["Hauptplatz"],
-            "revenue": 23
+            "revenue": 23,
+            "category": "Blume"
         },
         {
             "title": "Lila Bartfaden",
             "positions": ["Hauptplatz"],
-            "revenue": 23
+            "revenue": 23,
+            "category": "Blume"
         },
         {
             "title": "Löwenzahn",
             "positions": ["Hauptplatz"],
-            "revenue": 23
+            "revenue": 23,
+            "category": "Blume"
         },
         {
             "title": "Roter Bartfaden",
             "positions": ["Hauptplatz"],
-            "revenue": 18
+            "revenue": 18,
+            "category": "Blume"
         },
         {
             "title": "Weißer und Rosafarbender Bartfaden",
             "positions": ["Hauptplatz"],
-            "revenue": 41
+            "revenue": 41,
+            "category": "Blume"
         },
         {
             "title": "Gelbes Gänseblümchen",
             "positions": ["Friedliche Wiese"],
-            "revenue": 20
+            "revenue": 20,
+            "category": "Blume"
         },
         {
             "title": "Grünblühender Bartfaden",
             "positions": ["Friedliche Wiese"],
-            "revenue": 48
+            "revenue": 48,
+            "category": "Blume"
         },
         {
             "title": "Rotes Gänseblümchen",
             "positions": ["Friedliche Wiese"],
-            "revenue": 23
+            "revenue": 23,
+            "category": "Blume"
         },
         {
             "title": "Violettblühender Bartfaden",
             "positions": ["Friedliche Wiese"],
-            "revenue": 25
+            "revenue": 25,
+            "category": "Blume"
         },
         {
             "title": "Weißes Gähnseblümchen",
             "positions": ["Friedliche Wiese"],
-            "revenue": 25
+            "revenue": 25,
+            "category": "Blume"
         },
         {
             "title": "Blaue Hortensie",
             "positions": ["Schillernder Strand"],
-            "revenue": 28
+            "revenue": 28,
+            "category": "Blume"
         },
         {
             "title": "Lila Hortensie",
             "positions": ["Schillernder Strand"],
-            "revenue": 39
+            "revenue": 39,
+            "category": "Blume"
         },
         {
             "title": "Rosa Hortensie",
             "positions": ["Schillernder Strand"],
-            "revenue": 22
+            "revenue": 22,
+            "category": "Blume"
         },
         {
             "title": "Sonnenblume",
             "positions": ["Schillernder Strand"],
-            "revenue": 28
+            "revenue": 28,
+            "category": "Blume"
         },
         {
             "title": "Weiß-rote Hortensie",
             "positions": ["Schillernder Strand"],
-            "revenue": 54
+            "revenue": 54,
+            "category": "Blume"
         },
         {
             "title": "Blaues Sumpfmilchkraut",
             "positions": ["Lichtung des Vertrauens"],
-            "revenue": 48
+            "revenue": 48,
+            "category": "Blume"
         },
         {
             "title": "Lilafarbenes Sumpfmilchkraut",
             "positions": ["Lichtung des Vertrauens"],
-            "revenue": 25
+            "revenue": 25,
+            "category": "Blume"
         },
         {
             "title": "Orangefarbenes Sumpfmilchkraut",
             "positions": ["Lichtung des Vertrauens"],
-            "revenue": 33
+            "revenue": 33,
+            "category": "Blume"
         },
         {
             "title": "Orange-Rotes Sumpfmilchkraut",
             "positions": ["Lichtung des Vertrauens"],
-            "revenue": 66
+            "revenue": 66,
+            "category": "Blume"
         },
         {
             "title": "Weißes Sumpfmilchkraut",
             "positions": ["Lichtung des Vertrauens"],
-            "revenue": 33
+            "revenue": 33,
+            "category": "Blume"
         },
         {
             "title": "Blaue Sternlilie",
             "positions": ["Wald der Tapferkeit"],
-            "revenue": 30
+            "revenue": 30,
+            "category": "Blume"
         },
         {
             "title": "Orangefarbene Sternlilie",
             "positions": ["Wald der Tapferkeit"],
-            "revenue": 43
+            "revenue": 43,
+            "category": "Blume"
         },
         {
             "title": "Lilane Glockenblume",
             "positions": ["Wald der Tapferkeit"],
-            "revenue": 30
+            "revenue": 30,
+            "category": "Blume"
         },
         {
             "title": "Rote Glockenblume",
             "positions": ["Wald der Tapferkeit"],
-            "revenue": 23
+            "revenue": 23,
+            "category": "Blume"
         },
         {
             "title": "Weiße Glockenblume",
             "positions": ["Wald der Tapferkeit"],
-            "revenue": 60
+            "revenue": 60,
+            "category": "Blume"
         },
         {
             "title": "Gelbe Bromelie",
             "positions": ["Sonnige Ebene"],
-            "revenue": 73
+            "revenue": 73,
+            "category": "Blume"
         },
         {
             "title": "Orangefarbene Hauswurz",
             "positions": ["Sonnige Ebene"],
-            "revenue": 52
+            "revenue": 52,
+            "category": "Blume"
         },
         {
             "title": "Rosa Bromelie",
             "positions": ["Sonnige Ebene"],
-            "revenue": 27
+            "revenue": 27,
+            "category": "Blume"
         },
         {
             "title": "Rosa Hauswurz",
             "positions": ["Sonnige Ebene"],
-            "revenue": 35
+            "revenue": 35,
+            "category": "Blume"
         },
         {
             "title": "Rote Bromelie",
             "positions": ["Sonnige Ebene"],
-            "revenue": 27
+            "revenue": 27,
+            "category": "Blume"
         },
         {
             "title": "Blaue Passionslilie",
             "positions": ["Eisige Höhen"],
-            "revenue": 56
+            "revenue": 56,
+            "category": "Blume"
         },
         {
             "title": "Grüne Passionslilie",
             "positions": ["Eisige Höhen"],
-            "revenue": 28
+            "revenue": 28,
+            "category": "Blume"
         },
         {
             "title": "Rote Passionslilie",
             "positions": ["Eisige Höhen"],
-            "revenue": 38
+            "revenue": 38,
+            "category": "Blume"
         },
         {
             "title": "Schwarze Passionslilie",
             "positions": ["Eisige Höhen"],
-            "revenue": 79
+            "revenue": 79,
+            "category": "Blume"
         },
         {
             "title": "Weiße Passionslilie",
             "positions": ["Eisige Höhen"],
-            "revenue": 38
+            "revenue": 38,
+            "category": "Blume"
         },
         {
             "title": "Gelbe Kapuzinerkresse",
             "positions": ["Vergessenes Land"],
-            "revenue": 85
+            "revenue": 85,
+            "category": "Blume"
         },
         {
             "title": "Orangefarbene Kapuzinerkresse",
             "positions": ["Vergessenes Land"],
-            "revenue": 60
+            "revenue": 60,
+            "category": "Blume"
         },
         {
             "title": "Lila Springkraut",
             "positions": ["Vergessenes Land"],
-            "revenue": 40
+            "revenue": 40,
+            "category": "Blume"
         },
         {
             "title": "Rote Kapuzinerkresse",
             "positions": ["Vergessenes Land"],
-            "revenue": 40
+            "revenue": 40,
+            "category": "Blume"
         },
         {
             "title": "Weißes Springkraut",
             "positions": ["Vergessenes Land"],
-            "revenue": 30
+            "revenue": 30,
+            "category": "Blume"
         },
 
         {
             "title": "Granat",
             "positions": ["Hauptplatz", "Friedliche Wiese"],
-            "revenue": 160
+            "revenue": 160,
+            "category": "Edelstein"
         },
         {
             "title": "Glänzender Granat",
             "positions": ["Hauptplatz", "Friedliche Wiese"],
-            "revenue": 640
+            "revenue": 640,
+            "category": "Edelstein"
         },
         {
             "title": "Topas",
             "positions": ["Hauptplatz"],
-            "revenue": 240
+            "revenue": 240,
+            "category": "Edelstein"
         },
         {
             "title": "Glänzender Topas",
             "positions": ["Hauptplatz"],
-            "revenue": 960
+            "revenue": 960,
+            "category": "Edelstein"
         },
         {
             "title": "Peridot",
             "positions": ["Friedliche Wiese", "Schillernder Strand"],
-            "revenue": 200
+            "revenue": 200,
+            "category": "Edelstein"
         },
         {
             "title": "Glänzender Peridot",
             "positions": ["Friedliche Wiese", "Schillernder Strand"],
-            "revenue": 800
+            "revenue": 800,
+            "category": "Edelstein"
         },
         {
             "title": "Aquamarin",
             "positions": ["Schillernder Strand", "Wald der Tapferkeit"],
-            "revenue": 250
+            "revenue": 250,
+            "category": "Edelstein"
         },
         {
             "title": "Glänzender Aquamarin",
             "positions": ["Schillernder Strand", "Wald der Tapferkeit"],
-            "revenue": 1000
+            "revenue": 1000,
+            "category": "Edelstein"
         },
         {
             "title": "Smaragd",
             "positions": ["Lichtung des Vertrauens", "Wald der Tapferkeit"],
-            "revenue": 325
+            "revenue": 325,
+            "category": "Edelstein"
         },
         {
             "title": "Glänzender Smaragd",
             "positions": ["Lichtung des Vertrauens", "Wald der Tapferkeit"],
-            "revenue": 1300
+            "revenue": 1300,
+            "category": "Edelstein"
         },
         {
             "title": "Citrin",
             "positions": ["Lichtung des Vertrauens", "Sonnige Ebene"],
-            "revenue": 380
+            "revenue": 380,
+            "category": "Edelstein"
         },
         {
             "title": "Glänzender Citrin",
             "positions": ["Lichtung des Vertrauens", "Sonnige Ebene"],
-            "revenue": 1500
+            "revenue": 1500,
+            "category": "Edelstein"
         },
         {
             "title": "Turmalin",
             "positions": ["Eisige Höhen", "Vergessenes Land"],
-            "revenue": 420
+            "revenue": 420,
+            "category": "Edelstein"
         },
         {
             "title": "Glänzender Turmalin",
             "positions": ["Eisige Höhen", "Vergessenes Land"],
-            "revenue": 1600
+            "revenue": 1600,
+            "category": "Edelstein"
         },
         {
             "title": "Amethyst",
             "positions": ["Eisige Höhen", "Vergessenes Land"],
-            "revenue": 500
+            "revenue": 500,
+            "category": "Edelstein"
         },
         {
             "title": "Glänzender Amethyst",
             "positions": ["Eisige Höhen", "Vergessenes Land"],
-            "revenue": 2000
+            "revenue": 2000,
+            "category": "Edelstein"
         },
         {
             "title": "Diamant",
             "positions": ["Vergessenes Land"],
-            "revenue": 600
+            "revenue": 600,
+            "category": "Edelstein"
         },
         {
             "title": "Glänzender Diamant",
             "positions": ["Vergessenes Land"],
-            "revenue": 2400
+            "revenue": 2400,
+            "category": "Edelstein"
         },
-
         {
             "title": "Baumwolle",
             "positions": ["Sonnige Ebene"],
-            "revenue": 37
+            "revenue": 37,
+            "category": "Material"
         },
         {
             "title": "Dunkles Holz",
             "positions": ["Vergessenes Land"],
-            "revenue": 50
+            "revenue": 50,
+            "category": "Material"
         },
         {
             "title": "Eisenerz",
             "positions": ["Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land"],
-            "revenue": 10
+            "revenue": 10,
+            "category": "Material"
         },
         {
             "title": "Erde",
             "positions": ["Hauptplatz", "Friedliche Wiese", "Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land"],
-            "revenue": 3
+            "revenue": 3,
+            "category": "Material"
         },
         {
             "title": "Goldklumpen",
             "positions": ["Sonnige Ebene", "Eisige Höhen", "Vergessenes Land"],
-            "revenue": 20
+            "revenue": 20,
+            "category": "Material"
         },
         {
             "title": "Hartholz",
             "positions": ["Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land"],
-            "revenue": 10
+            "revenue": 10,
+            "category": "Material"
         },
         {
             "title": "Kieselsteine",
             "positions": ["Schillernder Strand", "Wald der Tapferkeit", "Sonnige Ebene", "Vergessenes Land"],
-            "revenue": 10
+            "revenue": 10,
+            "category": "Material"
         },
         {
             "title": "Kohleerz",
             "positions": ["Hauptplatz", "Friedliche Wiese", "Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land", "Schillernder Strand"],
-            "revenue": 5
+            "revenue": 5,
+            "category": "Material"
         },
         {
             "title": "Kristall",
             "positions": ["Vergessenes Land"],
-            "revenue": 30
+            "revenue": 30,
+            "category": "Material"
         },
         {
             "title": "Lehm",
             "positions": ["Lichtung des Vertrauens", "Sonnige Ebene", "Vergessenes Land"],
-            "revenue": 20
+            "revenue": 20,
+            "category": "Material"
         },
         {
             "title": "Nachtscherbe",
             "positions": ["Hauptplatz", "Friedliche Wiese", "Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land", "Schillernder Strand"],
-            "revenue": 0
+            "revenue": 0,
+            "category": "Material"
         },
         {
             "title": "Rote Alge",
             "positions": ["Hauptplatz", "Friedliche Wiese", "Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land", "Schillernder Strand"],
-            "revenue": 150
+            "revenue": 150,
+            "category": "Material"
         },
         {
             "title": "Sand",
             "positions": ["Schillernder Strand"],
-            "revenue": 8
+            "revenue": 8,
+            "category": "Material"
         },
         {
             "title": "Stein",
             "positions": ["Hauptplatz", "Friedliche Wiese", "Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land", "Schillernder Strand"],
-            "revenue": 2
+            "revenue": 2,
+            "category": "Material"
         },
         {
             "title": "Schneeball",
             "positions": ["Eisige Höhen"],
-            "revenue": 25
+            "revenue": 25,
+            "category": "Material"
         },
         {
             "title": "Traumscherbe",
             "positions": ["Hauptplatz", "Friedliche Wiese", "Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land", "Schillernder Strand"],
-            "revenue": 0
+            "revenue": 0,
+            "category": "Material"
         },
         {
             "title": "Trockenes Holz",
             "positions": ["Sonnige Ebene", "Eisige Höhen", "Vergessenes Land"],
-            "revenue": 25
+            "revenue": 25,
+            "category": "Material"
         },
         {
             "title": "Weichholz",
             "positions": ["Hauptplatz", "Friedliche Wiese", "Wald der Tapferkeit", "Lichtung des Vertrauens", "Sonnige Ebene", "Eisige Höhen", "Vergessenes Land"],
-            "revenue": 5
+            "revenue": 5,
+            "category": "Material"
         }   
     ]
 }

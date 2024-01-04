@@ -74,7 +74,7 @@ const App = () => {
 										))
 									}
 								</ul>
-								<p>Typ: {determineFoodTypeIcon(selectedIngredient.type)} {selectedIngredient.type}</p>
+								<p>Typ: {determineFoodTypeIcon(selectedIngredient.category)} {selectedIngredient.category}</p>
 								<p>Energie vom Mampfen: {selectedIngredient.power} <FontAwesomeIcon icon={faCloud} /></p>
 								<p>Goofie gibt dir hierfür: {selectedIngredient.revenue} <FontAwesomeIcon icon={faCoins} /></p>
 							</div>
@@ -177,7 +177,7 @@ const App = () => {
 											>
 												{
 													ingredientsData.ingredients.find(ing => ing.title === ingredient) ? (
-														<div>{determineFoodTypeIcon(ingredientsData.ingredients.find(ing => ing.title === ingredient).type)} {ingredient}</div>)
+														<div>{determineFoodTypeIcon(ingredientsData.ingredients.find(ing => ing.title === ingredient).category)} {ingredient}</div>)
 														:
 														(<div>{determineFoodTypeIcon(ingredient)} {ingredient}</div>)
 												}
